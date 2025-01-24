@@ -6,11 +6,11 @@ int main()
     scanf("%d %d",&a,&b);
     if(a>b)
     {
-        printf("True")
+        printf("%s","True");
     }
     else
     {
-        printf("False")
+        printf("%s","False");
     }
     return 0;
 }
