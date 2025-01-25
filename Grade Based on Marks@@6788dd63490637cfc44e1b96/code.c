@@ -18,10 +18,10 @@ int main()
    }
    else if(a>=60 &&a<70)
    {
-    printf("D")
+    printf("D");
    }
    else if(a<60)
    {
-    printf("F")
+    printf("F");
    }
 }
