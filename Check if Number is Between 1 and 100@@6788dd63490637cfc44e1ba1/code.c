@@ -10,7 +10,7 @@ int main()
     }
     else
     {
-        printf("Out Of Range");
+        printf("Out of Range");
     }
     return 0;
 }
