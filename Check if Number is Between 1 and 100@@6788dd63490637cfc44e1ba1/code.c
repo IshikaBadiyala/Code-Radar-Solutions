@@ -12,4 +12,5 @@ int main()
     {
         printf("Out Of Range");
     }
+    return 0;
 }
