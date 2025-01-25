@@ -7,7 +7,7 @@
     {
         printf("Yes");
     }
-    else if(b%a!=0)
+    else
     {
         printf("No");
     }
