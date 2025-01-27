@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int i;
-    scanf("%d",&i);
+    char i;
+    scanf("%c",&i);
     if(i == 'R'||i == 'r')
     {
         printf("Stop\n");
