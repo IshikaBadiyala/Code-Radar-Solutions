@@ -8,7 +8,7 @@ int main()
     {
         printf("31\n");
     }
-    else if( i==4 || i==6 || i==9 || i==11)
+    else if( i == 4 || i == 6 || i == 9 || i == 11)
     {
         printf("30\n");
     }
