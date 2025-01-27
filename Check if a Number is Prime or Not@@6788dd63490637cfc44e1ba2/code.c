@@ -10,7 +10,7 @@ int main()
     }
     for(j=1;j<=i;j++)
     {
-         if(j%i==0)
+         if(i%j==0)
          {
             count++;
          }
