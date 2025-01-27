@@ -11,7 +11,7 @@ int main()
     {
         printf("Go");
     }
-    else if(i='Y')
+    else if(i=='Y')
     {
         printf("Slow Down");
     }
