@@ -8,6 +8,10 @@ int main()
     {
         printf("31\n");
     }
+    else if(i==2 || i==4 || i==6 || i==9 || i==11)
+    {
+        printf("30\n")
+    }
     else if(i==2)
     {
         printf("28\n");
