@@ -7,7 +7,7 @@ int main()
     for(i=1;i<=10;i++)
     {
        multiply=N*i;
-       printf("\n%d x %d = %d",N,i,multiply);
+       printf("%d x %d = %d\n",N,i,multiply);
 
     }
 }
