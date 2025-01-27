@@ -4,6 +4,10 @@ int main()
 {
     int i,j,count=0;
     scanf("%d",&i);
+    if(i<=1)
+    {
+        printf("Not Prime\n")
+    }
     for(j=1;j<=i/2;j++)
     {
          if(j%i==0)
