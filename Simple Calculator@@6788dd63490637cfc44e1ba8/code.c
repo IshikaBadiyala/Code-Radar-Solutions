@@ -17,15 +17,9 @@ int main()
         printf("%d\n",num*num2);
         break;
         case 4 '/':
-        if(num2!=0)
-        {
-            printf("%d\n",num/num2);      
-        }
-        else
-        {
-            printf("error\n");
-        }
+        printf("%d",num/num2);
         break;
+    
         default:
         printf("error");
       break;
