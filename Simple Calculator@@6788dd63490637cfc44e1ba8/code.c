@@ -18,13 +18,13 @@ int main()
     else if(ch='*')
     {
         mulp=a*b;
-        printf("%d",mulp);
+        printf("%d\n",mulp);
     }
     else if(ch=='/')
     {
         if(b!=0)
         {
-                 div=a/b;
+                 div = a / b;
                  printf("%d",div);
         }
         
