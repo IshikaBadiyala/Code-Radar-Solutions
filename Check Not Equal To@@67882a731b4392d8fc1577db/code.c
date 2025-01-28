@@ -8,8 +8,8 @@ int main()
     {
         printf("True");
     }
-    else
+    else 
     {
-        printf("True");
+        printf("False");
     }
 }
