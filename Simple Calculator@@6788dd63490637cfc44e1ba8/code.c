@@ -2,29 +2,30 @@
 
 int main()
 {
-    int num,num2;
-    char op;
-    scanf("%d %d %c",&num,&num2,&op);
-    switch(op)
+    int a,b,sum,diff,mulp,div;
+    char ch;
+    scanf("%d %d %c",&a,&b,&ch);
+    if(ch=='+')
     {
-        case '+':
-        printf("%d\n",num+num2);
-        break;
-        case '-':
-        printf("%d\n",num-num2);
-        break;
-        case 3 '*':
-        printf("%d\n",num*num2);
-        break;
-        case 4 '/':
-        printf("%d",num/num2);
-        break;
-    
-        default:
-        printf("error");
-      
+        sum=a+b;
+        printf("%d",sum);
     }
-    return 0;
-    
-
+    else if(ch=='-')
+    {
+        diff=a-b;
+        printf("%d",diff);
+    }
+    else if(ch='*')
+    {
+        mulp=a*b;
+        printf("%d",mulp);
+    }
+    else if(ch=='/')
+    {
+        div=a/b;
+        printf("%d",div);
+    }
+    else{
+        printf("error");
+    }
 }
