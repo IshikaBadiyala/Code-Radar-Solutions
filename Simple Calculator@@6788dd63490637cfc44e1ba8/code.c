@@ -22,7 +22,7 @@ int main()
     }
     else if(ch=='/')
     {
-        div=a/b;
+        div=b/a;
         printf("%d",div);
     }
     else{
