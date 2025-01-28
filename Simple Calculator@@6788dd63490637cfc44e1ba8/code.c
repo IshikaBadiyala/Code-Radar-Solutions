@@ -15,11 +15,7 @@ int main()
         diff=a-b;
         printf("%d",diff);
     }
-    else if(ch='*')
-    {
-        mulp=a*b;
-        printf("%d\n",mulp);
-    }
+
     else if(ch=='/')
     {
         if(b!=0)
@@ -32,5 +28,10 @@ int main()
     else{
         printf("error");
     }
+    }
+    else if(ch=='*')
+    {
+        mulp=a*b;
+        printf("%d",mulp);
     }
 }
