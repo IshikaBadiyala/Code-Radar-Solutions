@@ -22,10 +22,15 @@ int main()
     }
     else if(ch=='/')
     {
-        div=b/a;
-        printf("%d",div);
-    }
+        if(b!=0)
+        {
+                 div=a/b;
+                 printf("%d",div);
+        }
+        
+  
     else{
         printf("error");
+    }
     }
 }
