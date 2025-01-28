@@ -6,10 +6,10 @@ int main()
     scanf("%d %d",&a,&b);
     if((a%2!=0&&b%2!=0)||(a%2==0&&b%2!=0))
     {
-        printf("1");
+        printf("0");
     }
     else
     {
-        printf("0");
+        printf("1");
     }
 }
