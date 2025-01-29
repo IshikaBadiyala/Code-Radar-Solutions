@@ -11,13 +11,13 @@ int main()
     }
     else if(isalpha(c))
     {
-        if(c=='a'|| c=='e' || c=='o'|| c=='u'|| c=='i'|| c=='A'|| c=='E'|| c='I'|| c=='O'|| c=='U')
+        if(c=='a'|| c=='e' || c=='o'|| c=='u'|| c=='i'|| c=='A'|| c=='E'|| c=='I'|| c=='O'|| c=='U')
         {
             printf("Vowel");
         }
         else
         {
-            printf("Consonent");
+            printf("Consonant");
         }
     
     }
