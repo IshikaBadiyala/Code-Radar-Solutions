@@ -3,7 +3,7 @@
 int main()
 {
     int i;
-    scanf("%d",&i)
+    scanf("%d",&i);
     if(a==1){printf("31\n")};
     else if(a==2){printf("28\n")};
     else if(a==3){printf("31\n")};
@@ -28,7 +28,7 @@ int main()
 
 
 
-}
+
 
 
 
