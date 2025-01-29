@@ -3,33 +3,32 @@
 int main()
 {
     int i;
- scanf("%d",&i);
- if(i<1||i>12)
- {
-    printf("Invalid month\n")
- }
- else{
- switch(i){
-    case 1:
-    case 3:
-    case 5:
-    case 7:
-    case 8:
-    case 10:
-    case 12:
-    printf("31\n");
-    break;
-    case 4:
-    case 6:
-    case 9:
-    case 11:
-    printf("30\n");
-    break;
-    case 2:
-    printf("28\n");
-    break;
- }
- }
-return 0;
- }
+    scanf("%d",&i)
+    if(a==1){printf("31\n")};
+    else if(a==2){printf("28\n")};
+    else if(a==3){printf("31\n")};
+    else if(a==4){printf("30\n")};
+    else if(a==5){printf("31\n")};
+    else if(a==6){printf("30\n")};
+    else if(a==7){printf("31\n")};
+    else if(a==8){printf("31\n")};
+    else if(a==9){printf("30\n")};
+    else if(a==10){printf("31\n")};
+    else if(a==11){printf("30\n")};
+    else if(a==12){printf("31\n")};
+    else{
+        printf("Invalid month");
+    }
+    return 0;
+}
+
+
+    
+
+
+
+
+}
+
+
 
