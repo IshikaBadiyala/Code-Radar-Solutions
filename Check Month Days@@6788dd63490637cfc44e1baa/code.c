@@ -2,8 +2,8 @@
 
 int main()
 {
-    int i;
-    scanf("%d",&i);
+    int a;
+    scanf("%d",&a);
     if(a==1){printf("%d\n",31)};
     else if(a==2){printf("%d\n",28)};
     else if(a==3){printf("%d\n",31)};
