@@ -5,7 +5,6 @@ int main()
     int N,even_count,odd_count;
     scanf("%d",&N);
     int arr[N];
-    scanf("%d",&arr[i]);
     for(i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
