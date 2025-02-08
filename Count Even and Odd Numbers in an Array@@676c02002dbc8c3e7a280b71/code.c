@@ -9,7 +9,7 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int even_count,odd_count;
+    int even_count=0,odd_count=0;
     for(i=0;i<N;i++)
     {
         if(arr[i]%2==0)
