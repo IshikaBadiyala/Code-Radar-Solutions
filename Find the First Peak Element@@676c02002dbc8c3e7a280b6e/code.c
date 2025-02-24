@@ -13,8 +13,10 @@ int main()
         if(arr[j]>arr[j-1]&&arr[j]>arr[j+1])
         {
             printf("%d",arr[j]);
+            return 0;
         }
     
     }
    printf("-1");
+   return 0;
 }
