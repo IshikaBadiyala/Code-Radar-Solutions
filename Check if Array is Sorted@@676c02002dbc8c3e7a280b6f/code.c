@@ -12,7 +12,7 @@ int main()
     {
         if(arr[j]<arr[j-1])
        { printf("Non Sorted\n");
-        break;
+       return 0;
        }
     }
   printf("Sorted");
