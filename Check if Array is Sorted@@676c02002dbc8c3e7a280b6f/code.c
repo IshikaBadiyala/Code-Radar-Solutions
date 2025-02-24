@@ -15,6 +15,6 @@ int main()
        return 0;
        }
     }
-printf("sorted\n")
+printf("sorted\n");
 return 0;
 }
