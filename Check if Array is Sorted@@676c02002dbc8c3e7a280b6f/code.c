@@ -10,7 +10,7 @@ int main()
     }
     for(j=1;j<i;j++)
     {
-        if(arr[j]<arr[j-1])
+        if(arr[j]<=arr[j-1])
         printf("Non Sorted\n");
         return 0;
     }
