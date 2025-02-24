@@ -14,7 +14,7 @@ int main() {
     for (j = 1; j < i; j++) {
         if (arr[j] < arr[j - 1]) {
             printf("Not Sorted\n");
-            return 0;
+           
         }
     }
 
