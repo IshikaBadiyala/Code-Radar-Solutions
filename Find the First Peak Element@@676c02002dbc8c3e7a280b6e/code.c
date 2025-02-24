@@ -14,7 +14,7 @@ int main()
         {
             printf("%d",arr[j]);
         }
+    
     }
-    else
-    printf("-1");
+   printf("-1");
 }
