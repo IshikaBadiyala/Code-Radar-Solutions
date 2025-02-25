@@ -11,6 +11,7 @@ int main()
     for(j=0;j<i;j++)
     {
         count=0;
+        primecount=0;
         for(k=1;k<i;k++)
         {
         if(arr[j]%k==0)
