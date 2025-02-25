@@ -6,7 +6,7 @@ int main()
     int arr[i];
     for(j=0;j<i;j++)
     {
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     largest=arr[0];
     for(j=1;j<i;j++)
