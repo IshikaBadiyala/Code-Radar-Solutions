@@ -9,7 +9,7 @@ int main()
         scanf("%d",&arr[j]);
     }
  
-    largest=-1
+    largest=-1;
    
     for(j=0;j<i;j++)
     {
