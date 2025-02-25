@@ -26,7 +26,7 @@ int main()
     if(largest!=arr[0])
  printf("%d",largest);
  else
- print("-1");
+ printf("-1");
 
 
    
