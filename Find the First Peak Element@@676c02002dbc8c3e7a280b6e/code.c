@@ -14,7 +14,7 @@ int main()
     }
     if(arr[0]>arr[1])
     {
-        rintf("%d",arr[0]);
+        printf("%d",arr[0]);
         return 0;
     }
     for(j=1;j<i;j++)
