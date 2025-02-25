@@ -12,7 +12,7 @@ int main()
     {
         count=0;
      
-        for(k=1;k<arr[j];k++)
+        for(k=1;k<=arr[j];k++)
         {
         if(arr[j]%k==0)
         count+=1;
