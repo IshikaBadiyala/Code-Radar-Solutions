@@ -21,7 +21,7 @@ int main()
  
     }
     if(largest%2!=0)
-   {largest=arr[j-1];
+   {largest=arr[j+1];
    printf("%d",largest);}
    else
     printf("-1");
