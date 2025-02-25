@@ -8,7 +8,9 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
+ 
     largest=arr[0];
+   
     for(j=0;j<i;j++)
     {
         if(largest<arr[j])
@@ -20,5 +22,6 @@ int main()
     printf("%d",largest);
     else
     printf("%d","-1");
+    retrun 0;
    
 }
