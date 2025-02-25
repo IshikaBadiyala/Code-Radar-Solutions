@@ -16,11 +16,14 @@ int main()
         if(largest<arr[j])
         {
            largest=arr[j];
-             if(largest%2==0)
-             printf("%d",largest);
+           
         }
  
     }
+    if(largest%2!=0)
+   largest=arr[j-1];
+   printf("%d",largest);
+    else
     printf("-1");
     return 0;
    
