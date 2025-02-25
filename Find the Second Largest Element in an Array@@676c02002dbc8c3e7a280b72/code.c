@@ -18,4 +18,6 @@ int main()
     }
     printf("%d",largest);
     return 0;
+    printf("-1");
+    return 0;
 }
