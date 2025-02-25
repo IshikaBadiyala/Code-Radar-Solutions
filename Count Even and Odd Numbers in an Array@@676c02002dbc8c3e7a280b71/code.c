@@ -2,11 +2,11 @@
 int main()
 {
     int i,j,even_count=0,odd_count=0;
-    scanf("%d",i);
+    scanf("%d",&i);
     int arr[i];
     for(j=0;j<i;j++)
     {
-        scanf("%d",arr[j]);
+        scanf("%d",&arr[j]);
     }
     for(j=0;j<i;j++)
     {
