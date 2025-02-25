@@ -12,7 +12,7 @@ int main()
     for(j=0;j<i;j++)
     {
        if(arr[j]==k)
-       count+=1
+       count+=1;
     }
     printf("%d",count);
 }
