@@ -10,7 +10,7 @@ int main()
     }
     for(j=1;j<i;j++)
     {
-        if(arr[j]>arr[j-1]&&arr[j]>arr[j+1])
+        if(arr[j]>arr[j-1]&&arr[j]>arr[j+1]||arr[j]>arr[j-1])
         {
             printf("%d",arr[j]);
             return 0;
