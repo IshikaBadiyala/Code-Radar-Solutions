@@ -1,22 +1,23 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main()
 {
-    int N;
-    scanf("%d",&N);
-    int arr[N];
-    for(i=0;i<N;i++)
+    int i,j,even_count=0,odd_count=0;
+    scanf("%d",i);
+    int arr[i];
+    for(j=0;j<i;j++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",arr[j]);
     }
-    int even_count=0,odd_count=0;
-    for(i=0;i<N;i++)
+    for(j=0;j<i;j++)
     {
-        if(arr[i]%2==0)
-        even_count++;
+        if(arr[j]%2==0)
+        {
+            even_count+=1;
+        }
         else
-        odd_count++;
+        {
+            odd_count+=1;
+        }
     }
     printf("%d %d",even_count,odd_count);
-   
 }
