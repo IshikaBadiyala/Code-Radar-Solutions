@@ -9,7 +9,7 @@ int main()
         scanf("%d",&arr[j]);
     }
  
-    largest=arr[0];
+    largest=-1
    
     for(j=0;j<i;j++)
     {
@@ -23,9 +23,9 @@ int main()
         }
  
     }
-
+if(largest!=-1)
 printf("%d",largest);
-return 0;
+else
 printf("-1");
 
    
