@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,sum=0;median;
+    int i,j,sum=0,median;
     int size = sizeof(arr) / sizeof(arr[0]);
     scanf("%d",&i);
     int arr[i]
