@@ -17,10 +17,11 @@ int main()
         {
            largest=arr[j];
         }
+ 
+    }
     if(largest%2==0)
     printf("%d",largest);
-    }
-
+    else
     printf("-1");
     return 0;
    
