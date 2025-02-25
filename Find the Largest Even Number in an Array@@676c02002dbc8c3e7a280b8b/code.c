@@ -21,7 +21,7 @@ int main()
     if(largest%2==0)
     printf("%d",largest);
     else
-    printf("%d","-1");
+    printf("-1");
     return 0;
    
 }
