@@ -12,10 +12,12 @@ int main()
     {
         for(k=j+1;k<i;k++)
         {
-            if(arr[k]==arr[j])   
-            printf("%d",arr[j]);
+            if(arr[k]==arr[j]) 
+
+           { printf("%d",arr[j]);
              break;
-}
+           }
+        }
 
         }
     }
