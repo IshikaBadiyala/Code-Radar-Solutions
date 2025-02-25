@@ -14,7 +14,7 @@ int main()
         count+=1;
         {
             if (count==2)
-            primecount+=1
+            primecount+=1;
         }
     
     }
