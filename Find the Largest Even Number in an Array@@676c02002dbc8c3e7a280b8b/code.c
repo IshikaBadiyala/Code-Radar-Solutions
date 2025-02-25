@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,largest;
+    int i,j,largest=-1;
     scanf("%d",&i);
     int arr[i];
     for(j=0;j<i;j++)
@@ -9,7 +9,6 @@ int main()
         scanf("%d",&arr[j]);
     }
  
-    largest=arr[0];
    
     for(j=0;j<i;j++)
     {
@@ -23,10 +22,10 @@ int main()
         }
  
     }
-    if(largest!=arr[0])
- printf("%d",largest);
+    if(largest!=-1)
+ printf("%d\n",largest);
  else
- printf("-1");
+ printf("\n-1");
 
 
    
