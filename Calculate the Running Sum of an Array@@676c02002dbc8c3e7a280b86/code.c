@@ -1,14 +1,15 @@
 #include<stdio.h>
 int miain()
 {
-    int i,j;
+    int i,j,sum;
     scanf("%d",&i);
     int arr[i];
-    int sum=arr[0];
+ 
     for(j=0;j<i;j++)
     {
         scanf("%d",&arr[j]);
     }
+    sum=arr[0];
     for(j=1;j<i;j++)
     {
           sum=sum+arr[j];
