@@ -4,7 +4,7 @@ int main()
     int i,j,sum=0,median;
   
     scanf("%d",&i);
-    int num[i]
+    int num[i];
     int size=sizeof(num)/sizeof(num[0]);
     for(j=0;j<i;j++)
     {
