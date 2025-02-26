@@ -14,7 +14,7 @@ int main()
         {
             if(arr[k]==arr[j])
             {
-                count+=1;
+                count++;
             } 
         if(count>=3)
         printf("%d",arr[j]);   
