@@ -8,19 +8,19 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
-    int isinc=1;
-    int isdec=1;
+    int isinc=0;
+    int isdec=0;
     for(j=0;j<i;j++)
     {
         if(arr[j]>=arr[j+1])
-        isinc=0;
+        isdec=1;
         if(arr[j]<=arr[j+1])
-        isdec=0;    
+        isinc=1;    
     }
     if(isinc||isdec)
     {
-        printf("NO");
+        printf("YES");
     }
     else
-    printf("YES");
+    printf("NO");
 }
