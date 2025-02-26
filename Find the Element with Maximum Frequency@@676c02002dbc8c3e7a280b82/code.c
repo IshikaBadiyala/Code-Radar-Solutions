@@ -15,10 +15,12 @@ int main()
             if(arr[k]==arr[j])
             {
                 count+=1;
-            }     
+            } 
+        if(count>=3)
+        printf("%d",arr[k]);   
+        return 0; 
         }
-      if(count>=3)
-        printf("%d",arr[k]);
+    
     }
    
 }
