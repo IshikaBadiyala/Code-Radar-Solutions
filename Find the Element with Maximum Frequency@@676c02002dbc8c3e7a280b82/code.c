@@ -6,7 +6,7 @@ int main()
     int arr[i];
     for(j=0;j<i;j++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",&arr[j]);
     }
     for(j=0;j<i-1;j++)
     {
@@ -18,7 +18,7 @@ int main()
             }
         if(count>=3)
         printf("%d",arr[k]);
-        return 0;
+      
         }
      
     }
