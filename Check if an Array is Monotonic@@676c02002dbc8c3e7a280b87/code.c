@@ -21,6 +21,6 @@ int main()
     {
         printf("YES");
     }
-    else(isinc&&isdec)
+    else if (isinc&&isdec)
     printf("NO");
 }
