@@ -18,6 +18,7 @@ int main()
             }
         if(count>=3)
         printf("%d",arr[k]);
+        return 0;
         }
      
     }
