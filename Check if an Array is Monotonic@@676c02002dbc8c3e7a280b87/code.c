@@ -14,7 +14,7 @@ int main()
     {
         if(arr[j]>=arr[j+1])
         isinc=0;
-        if(arr[j]<arr[j+1])
+        if(arr[j]<=arr[j+1])
         isdec=0;    
     }
     if(isinc||isdec)
