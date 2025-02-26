@@ -17,10 +17,10 @@ int main()
         if(arr[j]<=arr[j+1])
         isinc=1;    
     }
-    if(isinc||isdec)
+    if(isinc&&isdec)
     {
-        printf("YES");
+        printf("NO");
     }
     else
-    printf("NO");
+    printf("YES");
 }
