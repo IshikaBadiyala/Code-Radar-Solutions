@@ -17,7 +17,7 @@ int main()
                 count+=1;
             } 
         if(count>=3)
-        printf("%d",arr[k]);   
+        printf("%d",arr[j]);   
         return 0; 
         }
     
