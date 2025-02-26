@@ -18,7 +18,7 @@ int main()
             }
         }
         if(count>=3)
-        printf("%d",arr[j]);
+        printf("%d",arr[k]);
     }
    
 }
