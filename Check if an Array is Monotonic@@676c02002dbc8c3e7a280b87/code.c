@@ -4,7 +4,7 @@ int main()
     int i,j;
     scanf("%d",&i);
     int arr[i];
-    for(j=0;j<i;j++)
+    for(j=0;j<i-1;j++)
     {
         scanf("%d",&arr[j]);
     }
@@ -17,10 +17,10 @@ int main()
         if(arr[j]<=arr[j+1])
         isinc=1;    
     }
-    if(isinc||isdec)
+    if(isinc&&isdec)
     {
-        printf("YES");
+        printf("NO");
     }
-    else if (isinc&&isdec)
-    printf("NO");
+    else 
+    printf("YES");
 }
