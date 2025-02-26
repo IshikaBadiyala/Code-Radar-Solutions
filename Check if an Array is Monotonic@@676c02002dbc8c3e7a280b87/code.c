@@ -11,7 +11,8 @@ int main() {
     int isinc = 0;
     int isdec = 0;
 
-    for (j = 0; j < i - 1; j++) { // Changed loop to go till i-1
+    for (j = 0; j < i - 1; j++)
+     { 
         if (arr[j] < arr[j + 1]) {
             isinc = 1;
         }
