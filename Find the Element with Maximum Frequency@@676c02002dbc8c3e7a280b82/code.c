@@ -16,9 +16,10 @@ int main()
             {
                 count+=1;
             }
-        }
         if(count>=3)
         printf("%d",arr[k]);
+        }
+     
     }
    
 }
