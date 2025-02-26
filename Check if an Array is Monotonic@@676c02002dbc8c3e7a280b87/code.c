@@ -19,8 +19,8 @@ int main()
     }
     if(isinc||isdec)
     {
-        printf("NO");
+        printf("YES");
     }
     else
-    printf("YES");
+    printf("NO");
 }
