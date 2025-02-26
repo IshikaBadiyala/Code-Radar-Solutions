@@ -17,7 +17,7 @@ int main()
         if(arr[j]<=arr[j+1])
         isinc=1;    
     }
-    if(isinc&&isdec)
+    if(isinc||isdec)
     {
         printf("NO");
     }
