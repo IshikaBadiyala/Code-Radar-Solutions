@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
     int i,j,sum,rev,temp,count=0;
@@ -15,7 +16,7 @@ int main()
         sum=0;
         while (arr[j]!=0)
        { rev=arr[j]%10;
-        sum=sum*10+rev;
+        sum=sum*10+ abs(rev);
         arr[j]=arr[j]/10;
        }
        if(temp==sum)
