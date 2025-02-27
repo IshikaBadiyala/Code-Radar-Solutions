@@ -12,10 +12,14 @@ int main()
     rev=0;
     for(j=0;j<i;j++)
     {
-        rev=arr[j]%10;
+        while(arr[j]!=0)
+        {rev=arr[j]%10;
         sum=sum+rev;
         arr[j]=arr[j]/10;
+        }
+        printf("%d",sum);
     }
-    printf("%d",sum);
+
+   
 
 }
