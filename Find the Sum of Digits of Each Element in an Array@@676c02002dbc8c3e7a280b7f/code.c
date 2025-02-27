@@ -17,7 +17,7 @@ int main()
         sum=sum+rev;
         arr[j]=arr[j]/10;
         }
-        printf(" %d ",sum);
+        printf(" %d",sum);
     }
 
    
