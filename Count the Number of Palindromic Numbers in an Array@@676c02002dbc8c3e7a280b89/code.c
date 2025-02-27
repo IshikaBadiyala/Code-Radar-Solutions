@@ -8,10 +8,9 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
-   
+   arr[j]==temp;
     for(j=0;j<i;j++)
     {
-        arr[j]==temp;
         sum=0;
         while (arr[j]!=0)
        { rev=arr[j]%10;
