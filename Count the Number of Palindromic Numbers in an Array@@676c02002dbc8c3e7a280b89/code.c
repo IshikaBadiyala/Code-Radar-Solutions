@@ -18,7 +18,7 @@ int main()
         sum=sum+rev*10;
         arr[j]=arr[j]/10;
        }
-       if(temp==rev)
+       if(temp==sum)
        count+=1;
     }
     printf("%d",count);
