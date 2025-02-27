@@ -16,7 +16,7 @@ int main()
             if(arr[j]==arr[k])
             count+=1;
         }
-     printf("%d %d",arr[j],count);
+     printf("%d %d\n",arr[j],count);
     }
    
 }
