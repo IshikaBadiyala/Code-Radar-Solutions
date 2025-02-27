@@ -19,8 +19,9 @@ int main()
         }
         }
         if(count>(i/2))
-        printf("%d",arr[j]);
+       { printf("%d",arr[j]);
         return 0;
+       }
     }
     printf("-1");
     return 0;
