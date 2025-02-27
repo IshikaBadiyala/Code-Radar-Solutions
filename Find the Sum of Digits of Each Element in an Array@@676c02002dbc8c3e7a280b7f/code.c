@@ -8,7 +8,7 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
-    sum=0
+    sum=0;
     for(j=0;j<i;j++)
     {
         arr[j]%10;
