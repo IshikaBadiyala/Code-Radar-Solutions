@@ -18,7 +18,7 @@ int main()
         }
     }
     if(ispalindrome)
-    printf("YES");
-    else
     printf("NO");
+    else
+    printf("YES");
 }
