@@ -17,7 +17,7 @@ int main()
         {
         if(arr[j]==arr[k])
         {
-           count++;
+           count+=1;
         }
         }
         if(count>(i/2))
