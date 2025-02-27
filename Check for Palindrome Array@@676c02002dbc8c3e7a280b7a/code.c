@@ -12,13 +12,13 @@ int main()
     }
     for(j=0;j<i;j++)
     {
-        if(arr[j]==arr[i-j-1])
+        if(arr[j]!=arr[i-j-1])
         {ispalindrome=0;
         break;
         }
     }
     if(ispalindrome)
-    printf("NO");
-    else
     printf("YES");
+    else
+    printf("NO");
 }
