@@ -10,12 +10,12 @@ int main()
     }
     for(j=0;j<i-1;j++)
     {
-        count=0;
+        count=1;
         for(k=j+1;k<i;k++)
         {
         if(arr[j]==arr[k])
         {
-           count+=1;
+           count++;
         }
         }
         if(count>(i/2))
