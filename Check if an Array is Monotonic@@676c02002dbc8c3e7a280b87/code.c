@@ -11,21 +11,15 @@ int main() {
     int isinc = 0;
     int isdec = 0;
 
-    for (j = 0; j < i - 1; j++)
-     { 
-        if (arr[j] < arr[j + 1]) {
-            isinc = 1;
-        }
-        if (arr[j] > arr[j + 1]) {
-            isdec = 1;
-        }
-    }
-
-    if (isinc && isdec) {
-        printf("NO\n");
-    } else {
-        printf("YES\n");
-    }
-
-    return 0;
+for(j=0;j<i-1;j++)
+{
+    if(arr[j]<arr[j+1])
+    isinc=1;
+    else if(arr[j]>arr[j+1])
+    isdec=1;  
 }
+if(isinc&&isdec)
+printf("NO");
+else
+printf("YES");
+return 0;
