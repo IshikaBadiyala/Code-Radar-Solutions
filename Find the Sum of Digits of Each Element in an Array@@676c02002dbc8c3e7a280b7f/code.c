@@ -11,7 +11,7 @@ int main()
     sum=0;
     for(j=0;j<i;j++)
     {
-        arr[j]%10;
+        arr[j]=arr[j]%10;
         sum=sum+arr[j];
         arr[j]=arr[j]/10;
     }
