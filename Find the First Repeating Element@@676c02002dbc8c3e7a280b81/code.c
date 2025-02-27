@@ -16,7 +16,7 @@ int main()
             if(arr[j]==arr[k])
           {
             printf("%d",arr[j]);
-             break;
+             return 0;
           }
         }
      
