@@ -11,7 +11,7 @@ int main()
 
     for(j=0;j<i;j++)
     {
-        arr[j]=temp;
+        temp=arr[j];
         sum=0;
         while (arr[j]!=0)
        { rev=arr[j]%10;
