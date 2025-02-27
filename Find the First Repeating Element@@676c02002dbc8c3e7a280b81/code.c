@@ -13,10 +13,10 @@ int main()
         for(k=j+1;j<i;k++)
         {
             if(arr[j]==arr[k])
-            printf("%d",arr[j]);
-            break;
+           
         }
+        printf("%d",arr[j]);
     }
-    printf("-1");
+
 }
 
