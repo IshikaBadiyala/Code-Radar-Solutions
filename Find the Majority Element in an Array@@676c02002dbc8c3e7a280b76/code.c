@@ -10,6 +10,7 @@ int main()
     }
     if (i==1)
     printf("%d",arr[0]);
+    return 0;
     for(j=0;j<i-1;j++)
     {
         count=1;
