@@ -13,7 +13,7 @@ int main()
     for(j=0;j<i;j++)
     {
         rev=arr[j]%10;
-        sum=sum+arr[j];
+        sum=sum+rev;
         arr[j]=arr[j]/10;
     }
     printf("%d",sum);
