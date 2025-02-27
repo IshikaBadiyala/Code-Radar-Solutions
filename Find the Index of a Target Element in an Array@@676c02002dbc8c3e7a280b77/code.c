@@ -12,7 +12,7 @@ int main()
     for(j=0;j<i;j++)
     {
       if(arr[j]==k)
-      {printf("%d",arr[j]);
+      {printf("%d",j);
       return 0;
       }
     }
