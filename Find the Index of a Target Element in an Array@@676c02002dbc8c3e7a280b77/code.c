@@ -12,8 +12,9 @@ int main()
     for(j=0;j<i;j++)
     {
       if(arr[j]==k)
-      printf("%d",&arr[j]);
+      {printf("%d",&arr[j]);
       return 0;
+      }
     }
     printf("-1");
     return 0;
