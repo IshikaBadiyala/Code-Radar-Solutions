@@ -19,6 +19,6 @@ int main()
         break;
       }
       if(isfound==1)
-      printf("%d",arr[j]);
+      printf("%d ",arr[j]);
     }
 }
