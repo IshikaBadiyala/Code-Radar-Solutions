@@ -14,8 +14,8 @@ return 0;
     }
     for(j=0;j<i-1;j++)
     {
-        count=1;
-        for(k=j+1;k<i;k++)
+        count=0;
+        for(k=0;k<i;k++)
         {
         if(arr[j]==arr[k])
         {
