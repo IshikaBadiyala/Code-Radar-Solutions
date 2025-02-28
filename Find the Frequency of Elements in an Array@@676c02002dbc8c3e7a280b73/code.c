@@ -26,5 +26,5 @@ int main()
         }
      printf("%d %d\n",arr[j],count);
     }
-   
+   return 0;
 }
