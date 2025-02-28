@@ -28,6 +28,8 @@ int main()
         secondlarg=arr[j];
     }
     printf("%d",secondlarg);
+    return 0;
    }
    printf("-1");
+   return 0;
 }
