@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<limits.h>
+#include<stdlib.h>
 
 int main()
 {
@@ -20,14 +21,14 @@ int main()
     {
         if(largest<arr[j])
         {
-           largest=arr[j];
+           largest=abs(arr[j]);
         }  
     }
     isfound=0;
     for(j=0;j<i;j++)
     {
         if(arr[j]>secondlarg &&arr[j]!=largest)
-       { secondlarg=arr[j];
+       { secondlarg=abs(arr[j]);
         isfound=1;
        }
     }
