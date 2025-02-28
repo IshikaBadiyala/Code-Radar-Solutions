@@ -14,7 +14,7 @@ int main()
         isfound=1;
       for(k=j+1;k<i;k++)
       {
-        if(arr[j]<arr[k])
+        if(arr[j]<=arr[k])
         isfound=0;
        break;
       }
