@@ -23,7 +23,7 @@ int main()
            largest=arr[j];
         }  
     }
-    isfound=0
+    isfound=0;
     for(j=0;j<i;j++)
     {
         if(arr[j]>secondlarg &&arr[j]!=largest)
