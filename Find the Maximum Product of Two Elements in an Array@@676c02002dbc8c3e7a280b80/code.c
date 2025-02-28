@@ -21,14 +21,14 @@ int main()
     {
         if(largest<arr[j])
         {
-           largest=abs(arr[j]);
+           largest=arr[j];
         }  
     }
     isfound=0;
     for(j=0;j<i;j++)
     {
         if(arr[j]>secondlarg &&arr[j]!=largest)
-       { secondlarg=abs(arr[j]);
+       { secondlarg=arr[j];
         isfound=1;
        }
     }
