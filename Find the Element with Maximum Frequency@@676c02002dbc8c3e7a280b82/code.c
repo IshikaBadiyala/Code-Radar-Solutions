@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,k,max_freq,max_element;
+    int i,j,k,max_freq=0,max_element;
     scanf("%d",&i);
     int arr[i];
     for(j=0;j<i;j++)
@@ -20,7 +20,7 @@ int main()
         }
      if(count>max_freq)
         {
-            maxfreq=count;
+            max_freq=count;
             max_element=arr[j];
         }
     
