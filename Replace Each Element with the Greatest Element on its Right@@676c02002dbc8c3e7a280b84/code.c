@@ -12,7 +12,7 @@ int main()
     {
         for(k=j+1;k<i;k++)
         {
-            if(arr[j]<arr[k])
+            if(arr[j]<arr[k+1])
             replaced=arr[k];
         }
         printf("%d ",replaced);
