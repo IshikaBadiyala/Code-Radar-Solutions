@@ -2,7 +2,7 @@
 #include<limits.h>
 int main()
 {
-    int i,j,smallest,isfound=0,second=INT_MIN;
+    int i,j,smallest,isfound=0,second=INT_MAX;
     scanf("%d",&i);
     int arr[i];
     for(j=0;j<i;j++)
