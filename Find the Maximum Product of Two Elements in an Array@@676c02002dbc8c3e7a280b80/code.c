@@ -17,19 +17,19 @@ int main() {
     }
 
     for (j = 0; j < i; j++) {
-        if (abs(arr[j]) > largest) {
+        if (arr[j] > largest) {
             largest = arr[j];
         }
     }
 
     for (j = 0; j < i; j++) {
-        if (abs(arr[j]) > secondlarg && arr[j] != largest) {
+        if (arr[j] > secondlarg && arr[j] != largest) {
             secondlarg = arr[j];
             isfound = 1;
         }
     }
 
-    if (isfound) {
+    if (isfound|| secondlarg!=INT_MIN) {
         printf("%d\n", largest * secondlarg);
     } else {
         printf("-1\n");
