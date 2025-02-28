@@ -9,7 +9,7 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
-    smallest=arr[0]
+    smallest=arr[0];
     for(j=0;j<i;j++)
     {
        if(smallest >arr[j])
