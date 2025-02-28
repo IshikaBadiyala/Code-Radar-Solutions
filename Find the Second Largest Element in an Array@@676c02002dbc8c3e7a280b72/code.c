@@ -12,8 +12,9 @@ int main()
     }
     if (i==1)
     {printf("-1");
+    return 0;
     }
-   else{
+   
     largest=arr[0];
     for(j=1;j<i;j++)
     {
@@ -28,8 +29,7 @@ int main()
         secondlarg=arr[j];
     }
     printf("%d",secondlarg);
-    return 0;
-   }
-   printf("-1");
-   return 0;
+
+
+
 }
