@@ -19,7 +19,7 @@ int main()
     {
         if(arr[j]<second&& arr[j]!=smallest)
         {second=arr[j];
-        isfound=1
+        isfound=1;
         }
     }
     if(isfound)
