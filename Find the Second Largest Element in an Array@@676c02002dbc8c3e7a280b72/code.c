@@ -1,7 +1,9 @@
 #include<stdio.h>
+#include<limits.h>
+
 int main()
 {
-    int i,j,largest;
+    int i,j,largest,secondlarg= INT_MIN;
     scanf("%d",&i);
     int arr[i];
     for(j=0;j<i;j++)
@@ -13,11 +15,14 @@ int main()
     {
         if(largest<arr[j])
         {
-             largest=arr[j-1];
+           largest=arr[j];
         }  
     }
-    printf("%d",largest);
-    return 0;
-    printf("-1");
-    return 0;
+    for(j=0;j<i;j++)
+    {
+        if(arr[j]>secondlarg &&arr[j]!=largest)
+        secondlarg=arr[j];
+    }
+    printf("%d",secondlarg);
+
 }
