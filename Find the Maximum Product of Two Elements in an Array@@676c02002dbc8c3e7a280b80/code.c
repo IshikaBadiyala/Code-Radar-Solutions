@@ -3,7 +3,7 @@
 
 int main()
 {
-    int i,j,largest,secondlarg= INT_MIN,isfound;
+    int i,j,largest=INT_MAX,secondlarg= INT_MIN,isfound;
     scanf("%d",&i);
     int arr[i];
     for(j=0;j<i;j++)
@@ -15,7 +15,7 @@ int main()
     return 0;
     }
    
-    largest=arr[0];
+ 
     for(j=1;j<i;j++)
     {
         if(largest<arr[j])
