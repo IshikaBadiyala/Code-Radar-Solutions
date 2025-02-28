@@ -29,4 +29,5 @@ int main()
     }
     printf("%d",secondlarg);
    }
+   printf("-1");
 }
