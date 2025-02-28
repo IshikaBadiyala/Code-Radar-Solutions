@@ -17,7 +17,11 @@ int main()
     {
         if(arr[j]==0)
         continue;
-        printf("%d",arr[j]);
+        printf("%d ",arr[j]);
+    }
+    for(j=0;j<=count;j++)
+    {
+        printf("0");
     }
     
 }
