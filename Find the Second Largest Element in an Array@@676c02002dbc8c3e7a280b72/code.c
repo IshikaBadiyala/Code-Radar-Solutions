@@ -20,7 +20,7 @@ int main()
     }
     for(j=0;j<i;j++)
     {
-        if(arr[j]>secondlarg &&arr[j]<largest)
+        if(arr[j]>secondlarg &&arr[j]!=largest)
         secondlarg=arr[j];
     }
     printf("%d",secondlarg);
