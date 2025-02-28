@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    if (isfound|| secondlarg!=INT_MIN) {
+    if (isfound&&secondlarg!=INT_MIN) {
         printf("%d\n", largest * secondlarg);
     } else {
         printf("-1\n");
