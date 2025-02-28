@@ -10,7 +10,7 @@ int main()
         scanf("%d",&arr[j]);
        visted[j]=0;
     }
-    for(j=0;j<i-1;j++)
+    for(j=0;j<i;j++)
     {
         if(visted[j]==1)
         continue;
