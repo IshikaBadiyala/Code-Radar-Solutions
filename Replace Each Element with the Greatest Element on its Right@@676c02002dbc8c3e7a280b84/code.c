@@ -15,6 +15,6 @@ int main()
             if(arr[j]<arr[k])
             replaced=arr[k];
         }
-        printf("%d",replaced);
+        printf("%d ",replaced);
     }
 }
