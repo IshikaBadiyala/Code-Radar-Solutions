@@ -11,12 +11,7 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
-    if (i==1)
-    {printf("-1");
-    return 0;
-    }
-   
-  
+ 
     for(j=1;j<i;j++)
     {
         if(largest<arr[j])
