@@ -16,7 +16,7 @@ int main()
       {
         if(arr[j]<arr[k])
         isfound=0;
-        continue;
+       break;
       }
       if(isfound==1)
       printf("%d ",arr[j]);
