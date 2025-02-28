@@ -17,7 +17,7 @@ int main()
     {
         if(arr[j]==0)
         continue;
-        printf("%d",arr[j])
+        printf("%d",arr[j]);
     }
     
 }
