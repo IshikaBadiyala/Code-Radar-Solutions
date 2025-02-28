@@ -13,7 +13,7 @@ int main()
     for(j=0;j<i;j++)
     {
         if(visted[j]==1)
-        continue
+        continue;
 
         count=1;
         for(k=j+1;k<i;k++)
