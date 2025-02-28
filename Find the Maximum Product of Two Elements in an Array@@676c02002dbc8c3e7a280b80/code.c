@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
+#include<stdio.h>
+
 
 int main() {
     int i, j, largest = INT_MIN, secondlarg = INT_MIN, isfound = 0;
@@ -15,13 +17,13 @@ int main() {
     }
 
     for (j = 0; j < i; j++) {
-        if (arr[j] > largest) {
+        if (abs(arr[j]) > largest) {
             largest = arr[j];
         }
     }
 
     for (j = 0; j < i; j++) {
-        if (arr[j] > secondlarg && arr[j] != largest) {
+        if (abs(arr[j]) > secondlarg && arr[j] != largest) {
             secondlarg = arr[j];
             isfound = 1;
         }
