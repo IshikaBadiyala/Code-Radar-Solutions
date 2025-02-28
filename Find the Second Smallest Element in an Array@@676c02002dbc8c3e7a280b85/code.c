@@ -17,13 +17,13 @@ int main()
     }
     for(j=0;j<i;j++)
     {
-        if(arr[j]<second&& arr[j]!=smallest)
+        if(arr[j]<second && arr[j]!=smallest)
         {second=arr[j];
         isfound=1;
         }
     }
     if(isfound)
-    printf("%d",smallest);
+    printf("%d",second);
     else
     printf("-1");
 
