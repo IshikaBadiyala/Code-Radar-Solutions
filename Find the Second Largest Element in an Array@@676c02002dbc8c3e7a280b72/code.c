@@ -28,5 +28,5 @@ int main()
         secondlarg=arr[j];
     }
     printf("%d",secondlarg);
-return
+
 }
