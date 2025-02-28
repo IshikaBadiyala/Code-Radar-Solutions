@@ -27,8 +27,9 @@ int main()
     for(j=0;j<i;j++)
     {
         if(arr[j]>secondlarg &&arr[j]!=largest)
-        secondlarg=arr[j];
+       { secondlarg=arr[j];
         isfound=1;
+       }
     }
     if(isfound)
     printf("%d",secondlarg);
