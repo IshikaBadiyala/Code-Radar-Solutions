@@ -19,9 +19,9 @@ int main()
         continue;
         printf("%d ",arr[j]);
     }
-    for(j=0;j<=count;j++)
+    for(j=0;j<count;j++)
     {
-        printf("0");
+        printf(" 0");
     }
     
 }
