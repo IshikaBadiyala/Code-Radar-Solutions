@@ -3,7 +3,7 @@
 
 int main()
 {
-    int i,j,largest,secondlarg= INT_MIN;
+    int i,j,largest,secondlarg= INT_MIN,isfound;
     scanf("%d",&i);
     int arr[i];
     for(j=0;j<i;j++)
@@ -23,12 +23,18 @@ int main()
            largest=arr[j];
         }  
     }
+    isfound=0
     for(j=0;j<i;j++)
     {
         if(arr[j]>secondlarg &&arr[j]!=largest)
         secondlarg=arr[j];
+        isfound=1;
     }
+    if(isfound)
     printf("%d",secondlarg);
+  else
+  printf("-1");
+
 
 
 
