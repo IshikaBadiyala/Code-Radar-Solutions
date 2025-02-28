@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,k,isfound=1;
+    int i,j,k;
     scanf("%d",&i);
     int arr[i];
     for(j=0;j<i;j++)
@@ -10,14 +10,15 @@ int main()
     }
 
     for(j=0;j<i;j++)
-    {
+    { 
+        isfound=1;
       for(k=j+1;k<i;k++)
       {
         if(arr[j]<arr[k])
         isfound=0;
         break;
       }
-      if(isfound==0)
+      if(isfound==1)
       printf("%d",arr[j]);
     }
 }
