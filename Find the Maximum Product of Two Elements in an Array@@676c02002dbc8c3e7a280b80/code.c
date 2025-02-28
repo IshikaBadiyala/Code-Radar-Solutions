@@ -16,7 +16,7 @@ int main()
     return 0;
     }
    
-    largest=arr[0];
+  
     for(j=1;j<i;j++)
     {
         if(largest<arr[j])
