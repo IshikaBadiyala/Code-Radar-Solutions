@@ -10,6 +10,8 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
+    if (i==1)
+    printf("-1");
     largest=arr[0];
     for(j=1;j<i;j++)
     {
@@ -24,5 +26,5 @@ int main()
         secondlarg=arr[j];
     }
     printf("%d",secondlarg);
-
+return
 }
