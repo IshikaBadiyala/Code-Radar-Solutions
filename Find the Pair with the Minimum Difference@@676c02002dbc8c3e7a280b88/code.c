@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h> // Required for abs function
+#include<stdlib.h> 
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
-    diff=abs(arr[0]-arr[1]); // Initialize diff with the absolute difference of the first two elements
+    diff=abs(arr[0]-arr[1]); 
     min = arr[0];
     min1 = arr[1];
     
@@ -18,11 +18,11 @@ int main()
     { 
         for(k=j+1;k<i;k++)
         {
-            if(diff>abs(arr[j]-arr[k])) // Use abs function to ensure positive difference
+            if(diff>abs(arr[j]-arr[k])) 
             {
                 diff=abs(arr[j]-arr[k]);
-                min=arr[j];
-                min1=arr[k];
+                min=arr[k];
+                min1=arr[j];
             }
         }
     }
