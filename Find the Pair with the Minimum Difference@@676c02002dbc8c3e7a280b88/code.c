@@ -9,7 +9,7 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
-    diff=(abs(arr[j]-arr[j+1]));
+    diff=abs(arr[j]-arr[j+1]);
     for(j=0;j<i;j++)
     { 
         
