@@ -22,7 +22,7 @@ int main()
   }
   for(j=0;j<i;j++)
   {
-    printf("%d %d",arr[j]*arr[j+1]);
+    printf("%d ",arr[j]*arr[j+1]);
     return 0;
   }
 
