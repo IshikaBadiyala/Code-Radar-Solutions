@@ -9,6 +9,7 @@ int main()
         scanf("%d",&arr[j]);
     }
     scanf("%d",&n);
+    int same=1
     for(j=0;j<i-1;j++)
     {
         if(arr[j]!=arr[j+1])
