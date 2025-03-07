@@ -29,7 +29,7 @@ int main()
                 min=arr[k];
                 min1=arr[j];
             }
-            else if(diff>abs(arr[j]-arr[k]))
+             if(diff>abs(arr[j]-arr[k]))
             {
                 diff=abs(arr[j]-arr[k]);
                 min=arr[k];
