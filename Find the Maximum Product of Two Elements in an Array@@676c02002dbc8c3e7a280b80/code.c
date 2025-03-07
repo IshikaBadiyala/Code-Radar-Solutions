@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<maths.h>
 int main()
 {
     int i,j,k,temp;
@@ -6,7 +7,7 @@ int main()
     int arr[i];
     for(j=0;j<i;j++)
     {
-        scanf("%d",&arr[j]);
+        scanf("%d",abs(&arr[j]));
     }
   for(j=0;j<i-1;j++)
   {
