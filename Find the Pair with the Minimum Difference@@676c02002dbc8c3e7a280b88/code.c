@@ -18,6 +18,6 @@ int main()
             diff=arr[j]-arr[k];
         }
     }
-    printf("%d",diff);
+    printf("%d %d",arr[j],arr[k]);
     return 0;
 }
