@@ -23,19 +23,12 @@ int main()
     { 
         for(k=j+1;k<i;k++)
         {
-            if(diff=abs(arr[j]-arr[k])&&arr[j]<min&&arr[k]<min1) 
+            if(diff>abs(arr[j]-arr[k])) 
             {
                 diff=abs(arr[j]-arr[k]);
                 min=arr[k];
                 min1=arr[j];
             }
-             else if(diff>abs(arr[j]-arr[k]))
-            {
-                diff=abs(arr[j]-arr[k]);
-                min=arr[k];
-                min=arr[j];
-            }
-                    
         }
     }
     printf("%d %d\n",min,min1);
