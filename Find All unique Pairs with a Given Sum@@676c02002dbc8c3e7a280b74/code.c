@@ -20,7 +20,7 @@ int main()
         break;
         }
      }
-     if(isfound)
+     if(found)
      break;
     }
     return 0;
