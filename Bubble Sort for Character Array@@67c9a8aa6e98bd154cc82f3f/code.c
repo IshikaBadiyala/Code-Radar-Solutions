@@ -13,7 +13,7 @@ int bubbleSort(char arr[],int n)
     }
   }
 }
-int PrintArray(char arr[],int n)
+int printArray(char arr[],int n)
 {
    for(int j=0;j<n;j++)
    {
