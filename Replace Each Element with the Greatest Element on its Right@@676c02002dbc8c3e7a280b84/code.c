@@ -11,13 +11,11 @@ int main()
     }
     for(j=0;j<i;j++)
     {
-        replaced=INT_MIN;
-        for(k=0;k<i;k++)
+        for(k=j+1;k<i;k++)
         {
-            if(arr[j]<arr[k+1])
-            replaced=arr[k];
-           break;
+            if(arr[j+1]<arr[k+1])
+            arr[j]=arr[j+1];
         }
-        printf("%d ",replaced);
+      
     }
 }
