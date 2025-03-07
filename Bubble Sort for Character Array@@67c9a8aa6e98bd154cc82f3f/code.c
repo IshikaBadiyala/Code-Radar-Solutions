@@ -17,7 +17,7 @@ int printArray(char arr[],int n)
 {
    for(int j=0;j<n;j++)
    {
-    printf("Sorted array: %c",arr[j]);
-    return 0;
+    printf("%c",arr[j]);
+    
    }
 }
