@@ -10,7 +10,7 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
-    if (i=1)
+    if (i==1)
     {
         printf("-1");
         return 0;
