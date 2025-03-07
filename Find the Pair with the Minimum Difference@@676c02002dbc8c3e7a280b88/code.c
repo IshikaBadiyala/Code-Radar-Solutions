@@ -15,8 +15,8 @@ int main()
         
         for(k=j+1;k<i;k++)
         {
-            if(diff>(arr[j]-arr[k]))
-            {diff=arr[j]-arr[k];
+            if(diff>abs((arr[j]-arr[k])))
+            {diff=abs(arr[j]-arr[k]);
             min=arr[j];
             min1=arr[k];
             }
