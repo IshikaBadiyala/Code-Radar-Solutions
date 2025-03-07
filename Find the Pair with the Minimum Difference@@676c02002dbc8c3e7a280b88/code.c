@@ -38,12 +38,15 @@ int main()
             if(diff>abs(arr[j]-arr[k])) 
             {
                 diff=abs(arr[j]-arr[k]);
-                min=arr[k];
-                min1=arr[j];
+                min=arr[j];
+                min1=arr[k];
             }
         }
     }
-    printf("%d %d\n",min,min1);
+    if(min>min1)
+    printf("%d %d\n",min1,min);
+    else
+    printf("%d %d",min,min1);
 
     return 0;
 }
