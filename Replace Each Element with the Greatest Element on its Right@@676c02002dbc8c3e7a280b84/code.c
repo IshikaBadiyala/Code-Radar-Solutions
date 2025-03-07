@@ -16,6 +16,6 @@ int main()
             if(arr[j+1]<arr[k+1])
             arr[j]=arr[j+1];
         }
-      
+      printf("%d",arr[j]);
     }
 }
