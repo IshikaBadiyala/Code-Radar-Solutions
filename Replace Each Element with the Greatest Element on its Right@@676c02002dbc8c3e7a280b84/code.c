@@ -24,7 +24,7 @@ int main()
     arr[i-1]=-1;
     for(j=0;j<i;j++)
     {
-        printf("%d",arr[j]);
+        printf("%d ",arr[j]);
     }
     return 0;
 }
