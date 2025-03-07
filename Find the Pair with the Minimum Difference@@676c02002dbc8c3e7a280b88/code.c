@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
     int i,j,k,diff,min,min1;
@@ -8,7 +9,7 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
-    diff=(arr[j]-arr[j+1]);
+    diff=(abs(arr[j]-arr[j+1]));
     for(j=0;j<i;j++)
     { 
         
