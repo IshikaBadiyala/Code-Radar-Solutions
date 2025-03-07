@@ -1,4 +1,4 @@
-int bubbleSort(char arr[n],int n)
+int bubbleSort(char arr[],int n)
 {
   for(int j=0;j<n-1;j++)
   {
