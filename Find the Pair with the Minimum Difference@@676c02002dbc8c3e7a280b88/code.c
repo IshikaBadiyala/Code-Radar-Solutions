@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<math.h> // Required for abs function
+#include<stdlib.h> // Required for abs function
 
 int main()
 {
