@@ -7,8 +7,12 @@ int main()
     int arr[i];
     for(j=0;j<i;j++)
     {
-        scanf("%d",abs(&arr[j]));
+        scanf("%d",&arr[j]);
     }
+for(j=0;j<i;j++)
+{
+    arr[j]=abs(arr[j]);
+}
   for(j=0;j<i-1;j++)
   {
     for(k=0;k<i-1-j;k++)
