@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<limits.h>
+
 int main()
 {
     int i,j,k,replaced;
@@ -9,13 +10,21 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
-    for(j=0;j<i;j++)
+
+    for(j=0;j<i-1;j++)
     {
+        max=INT_MIN;
         for(k=j+1;k<i;k++)
         {
-            if(arr[j+1]<arr[k+1])
-            arr[j]=arr[j+1];
+         if(arr[k]>max)
+         max=arr[k]
         }
-      printf("%d",arr[j]);
+    arr[j]=max
     }
+    arr[i-1]=-1;
+    for(j=0;j<i;j++)
+    {
+        printf("%d",arr[j]);
+    }
+    return 0;
 }
