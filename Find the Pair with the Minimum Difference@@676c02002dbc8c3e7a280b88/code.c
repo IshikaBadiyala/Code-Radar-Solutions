@@ -19,7 +19,7 @@ int main()
   {
     for(k=0;k<i-1-j;k++)
     {
-        if(arr[k]<arr[k+1])
+        if(arr[k]>arr[k+1])
         {
             temp=arr[k];
             arr[k]=arr[k+1];
