@@ -4,7 +4,7 @@ int bubbleSort(char arr[],int n)
   {
     for(int k=0;k<n-1-j;k++)
     {
-        if(arr[k]<arr[k+1])
+        if(arr[k]>arr[k+1])
         {
             int temp=arr[k];
             arr[k]=arr[k+1];
@@ -17,7 +17,7 @@ int printArray(char arr[],int n)
 {
    for(int j=0;j<n;j++)
    {
-    printf("%c",arr[j]);
+    printf("%c ",arr[j]);
     
    }
 }
