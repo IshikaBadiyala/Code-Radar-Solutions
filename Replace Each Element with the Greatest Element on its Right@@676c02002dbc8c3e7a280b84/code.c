@@ -17,9 +17,9 @@ int main()
         for(k=j+1;k<i;k++)
         {
          if(arr[k]>max)
-         max=arr[k]
+         max=arr[k];
         }
-    arr[j]=max
+    arr[j]=max;
     }
     arr[i-1]=-1;
     for(j=0;j<i;j++)
