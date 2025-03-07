@@ -1,4 +1,4 @@
-bubbleSort(int arr[],int n)
+int bubbleSort(int arr[],int n)
 {
     int 
     for(int j=0;j<n-1;j++)
@@ -13,4 +13,11 @@ bubbleSort(int arr[],int n)
         }
     }
   }
+}
+int printArray(int arr[],n)
+{
+    for(int j=0;j<n-1;j++)
+    {
+        printf("%d",arr[j]);
+    }
 }
