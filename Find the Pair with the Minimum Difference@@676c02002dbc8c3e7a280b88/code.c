@@ -17,7 +17,7 @@ int main()
             if(diff>(arr[j]-arr[k]))
             diff=arr[j]-arr[k];
         }
-    }
     printf("%d %d",arr[j],arr[k]);
-    return 0;
+    }
+
 }
