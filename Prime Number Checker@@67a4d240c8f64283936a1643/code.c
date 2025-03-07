@@ -8,7 +8,11 @@ int isPrime(int num)
     for(i=2;i<=num;i++)
     {
         if(num%i==0)
-        return 1;
+        {count ++;
+        }      
     }
-    return 0;
+   if(count==2)
+   return 1;
+   else
+   return 0;
 }
