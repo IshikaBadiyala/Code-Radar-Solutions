@@ -16,7 +16,8 @@ int main()
         return 0;
     }
     diff=abs(arr[0]-arr[1]); 
-
+    min = arr[0];
+    min1 = arr[1];
     
     for(j=0;j<i;j++)
     { 
@@ -28,7 +29,7 @@ int main()
                 min=arr[k];
                 min1=arr[j];
             }
-             if(diff>abs(arr[j]-arr[k]))
+             else if(diff>abs(arr[j]-arr[k]))
             {
                 diff=abs(arr[j]-arr[k]);
                 min=arr[k];
