@@ -11,14 +11,24 @@ int main()
     scanf("%d",&n);
     for(j=0;j<i-1;j++)
     {
-        int found=0;
-     for(k=j+1;k<i;k++)
-     {
-        if(arr[j]+arr[k]==n)
-        {printf("%d %d\n",arr[j],arr[k]);
-       
-        }
-     }
+        if(arr[j]!=arr[j+1])
+        same=0;
+        break;
     }
-    return 0;
+    if(same)
+    {
+        if(arr[j]+arr[j+1]==n)
+        printf("%d %d",arr[j],arr[j+1]);
+    }
+    else
+    {
+        for(j=0;j<i-1;j++)
+        {
+             for(k=j+1;k<i;k++)
+             {
+                if (arr[j]+arr[k]==n)
+                printf("%d %d",arr[j],arr[k]);
+             }
+        }
+    }
 }
