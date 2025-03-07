@@ -7,7 +7,7 @@ int bubbleSort(int arr[],int n)
     {
         if(arr[k]<arr[k+1])
         {
-            temp=arr[k];
+            int temp=arr[k];
             arr[k]=arr[k+1];
             arr[k+1]=temp;
         }
