@@ -16,8 +16,7 @@ int main()
      {
         if(arr[j]+arr[k]==n)
         {printf("%d %d\n",arr[j],arr[k]);
-        found=1;
-        break;
+       
         }
      }
     }
