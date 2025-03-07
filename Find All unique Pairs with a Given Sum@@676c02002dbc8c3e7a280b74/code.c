@@ -11,10 +11,13 @@ int main()
     scanf("%d",&n);
     for(j=0;j<i-1;j++)
     {
+        int found=0;
      for(k=j+1;k<i;k++)
      {
         if(arr[j]+arr[k]==n)
         {printf("%d %d\n",arr[j],arr[k]);
+        found=1;
+        break;
         }
      }
     }
