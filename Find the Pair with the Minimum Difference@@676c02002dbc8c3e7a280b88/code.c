@@ -10,6 +10,11 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
+    if (i=1)
+    {
+        printf("-1");
+        return 0;
+    }
     diff=abs(arr[0]-arr[1]); 
     min = arr[0];
     min1 = arr[1];
