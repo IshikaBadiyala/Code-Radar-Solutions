@@ -16,7 +16,8 @@ int main()
         return 0;
     }
     diff=abs(arr[0]-arr[1]); 
-
+    min = arr[0];
+    min1 = arr[1];
     
     for(j=0;j<i;j++)
     { 
