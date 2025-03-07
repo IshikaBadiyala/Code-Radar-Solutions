@@ -1,4 +1,4 @@
-int selection sort(int arr[],int n)
+int selectionSort(int arr[],int n)
 {
     for(int j=0;j<n-1;j++)
   {
