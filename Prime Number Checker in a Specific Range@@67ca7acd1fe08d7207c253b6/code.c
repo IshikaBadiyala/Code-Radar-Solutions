@@ -1,4 +1,4 @@
-int printprimeInRange(int a,int b)
+int printPrimesInRange(int a,int b)
 {
     int count;
     for(int i=0;i<=b;i++)
