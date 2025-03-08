@@ -1,17 +1,19 @@
-int printPrimesInRange(int a,int b)
+int printPrimesInRange(int a, int b)
 {
     int count;
-    for(int i=0;i<=b;i++)
+    for(int i=a;i<=b;i++)
     {
-        if(a%i==0)
+        count=0
+        for(int j=1;j<=i;j++)
         {
-            count+=1;
+            if(i%j==0)
+            {
+              count+=1;
+            }
         }
         if(count==2)
         {
-            printf("%d",a);
+            printf("%d",i);
         }
     }
-   
-   
 }
