@@ -13,7 +13,7 @@ int selectionSort(char arr[],int n)
     }
   }
 }
-int printArray(char arr[],int n)
+int printArray(char arr[],char n)
 {
     for(char j=0;j<n;j++)
     {
