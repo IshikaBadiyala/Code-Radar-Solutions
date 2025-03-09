@@ -17,7 +17,7 @@ for(j=0;j<i;j++)
   {
     for(k=0;k<i-1-j;k++)
     {
-        if(arr[k]<arr[k+1])
+        if(arr[k]>arr[k+1])
         {
             temp=arr[k];
             arr[k]=arr[k+1];
@@ -25,10 +25,11 @@ for(j=0;j<i;j++)
         }
     }
   }
-  for(j=0;j<i;j++)
-  {
-    printf("%d ",arr[j]*arr[j+1]);
-    return 0;
-  }
+int max= arr[0]*arr[1];
+int max1=arr[n-1]*arr[n-2];
+if(max>max1)
+printf("%d",max);
+else
+max1;
 
 }
