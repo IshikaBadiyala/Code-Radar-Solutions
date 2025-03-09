@@ -9,6 +9,11 @@ int main()
     {
         scanf("%d",&arr[j]);
     }
+    if(i==1)
+    {
+        printf("-1");
+        return 0;
+    }
     for(j=0;j<i-1;j++)
     {
         for(k=0;k<i-1-j;k++)
