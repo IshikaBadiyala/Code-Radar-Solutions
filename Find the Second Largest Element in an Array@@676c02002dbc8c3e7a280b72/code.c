@@ -11,7 +11,7 @@ int main()
     }
     for(j=0;j<i-1;j++)
     {
-        for(k=0;k=i-1-j;k++)
+        for(k=0;k<i-1-j;k++)
         {
             if(arr[k]<arr[k+1])
             {
@@ -21,10 +21,6 @@ int main()
             }
         }
     }
-    for(j=0;j<i;j++)
-    {
-        arr[j]=abs(arr[j]);
-    }
-    int secondlargest=arr[j+1];
+    int secondlargest=arr[1];
     printf("%d",secondlargest);
 }
