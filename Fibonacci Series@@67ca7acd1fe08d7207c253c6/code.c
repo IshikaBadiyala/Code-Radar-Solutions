@@ -4,7 +4,7 @@
     if(n==1)
   {
     printf("%d",a);
-    return 0;
+    return;
   }
        for (int i=1;i<=n;i++)
    {
