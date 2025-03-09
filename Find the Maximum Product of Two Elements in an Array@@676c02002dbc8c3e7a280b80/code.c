@@ -30,6 +30,6 @@ int max1=arr[j-1]*arr[j-2];
 if(max>max1)
 printf("%d",max);
 else
-max1;
+printf("%d",max1);
 
 }
