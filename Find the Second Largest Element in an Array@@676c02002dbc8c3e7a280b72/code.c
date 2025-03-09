@@ -28,8 +28,8 @@ int main()
        { printf("%d",secondlargest);
         break;}
         else
-        printf("-1");
-        break;
+        {printf("-1");
+        break;}
     }
   
 }
