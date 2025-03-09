@@ -1,4 +1,4 @@
- int fibonacciSeries(int n)
+ void fibonacciSeries(int n)
  {
     int a=0,c,b=1;
     if(n==1)
