@@ -8,7 +8,7 @@ int binarySearch(int arr[],int n,int target)
     while(l<=r)
     {
          int mid=(l+r)/2;
-        if(target==[mid])
+        if(target==arr[mid])
         return mid;
         else if(target<arr[mid])
         r=mid-1;
