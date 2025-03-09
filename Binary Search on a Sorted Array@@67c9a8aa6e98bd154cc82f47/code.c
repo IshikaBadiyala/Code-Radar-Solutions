@@ -3,7 +3,8 @@ int binarySearch(int arr[],int n,int target)
     int l=0,r=n-1;
     int mid=(l+r)/2;
     if(n==1)
-    printf("0");
+   { printf("0");
+    return 0;}
     while(l<r)
     {
         if(target=arr[mid])
