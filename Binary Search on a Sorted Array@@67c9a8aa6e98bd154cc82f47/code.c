@@ -5,8 +5,9 @@ int binarySearch(int arr[],int n,int target)
     if(n==1)
    { 
     return 0;}
-    while(l<r)
+    while(l<=r)
     {
+         int mid=(l+r)/2;
         if(target=arr[mid])
         return mid;
         else if(target<arr[mid])
