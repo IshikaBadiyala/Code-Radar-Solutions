@@ -31,7 +31,7 @@ int main()
     {
         if(arr[j]!=arr[j+1])
        { printf("%d",secondlargest);
-        break;}
+        return 0;}
         else
         {printf("-1");
         break;}
