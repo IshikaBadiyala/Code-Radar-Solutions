@@ -25,7 +25,7 @@ int main()
     for(j=0;j<i;j++)
     {
         if(arr[j]!=arr[j+1])
-       { printf("%d",secondlargest)''
+       { printf("%d",secondlargest);
         break;}
         else
         printf("-1")
