@@ -22,5 +22,13 @@ int main()
         }
     }
     int secondlargest=arr[1];
-    printf("%d",secondlargest);
+    for(j=0;j<i;j++)
+    {
+        if(arr[j]!=arr[j+1])
+       { printf("%d",secondlargest)
+        break;}
+        else
+        printf("-1")
+    }
+  
 }
