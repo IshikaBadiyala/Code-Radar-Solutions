@@ -26,7 +26,7 @@ for(j=0;j<i;j++)
     }
   }
 int max= arr[0]*arr[1];
-int max1=arr[n-1]*arr[n-2];
+int max1=arr[j-1]*arr[j-2];
 if(max>max1)
 printf("%d",max);
 else
