@@ -1,10 +1,7 @@
 #include<stdlib.h>
 int insertionSort(int arr[],int n)
 {
-    for(int j=0;j<n;j++)
-    {
-        arr[j]=abs(arr[j]);
-    }
+
     for( int j=0;j<n-1;j++)
   {
     for(int k=0;k<n-1-j;k++)
