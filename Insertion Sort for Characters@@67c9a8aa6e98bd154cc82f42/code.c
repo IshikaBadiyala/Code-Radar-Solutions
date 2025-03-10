@@ -1,4 +1,4 @@
-int insertionSort(char arr[],int n)
+void insertionSort(char arr[],int n)
 {
     for( char j=0;j<n-1;j++)
   {
@@ -13,7 +13,7 @@ int insertionSort(char arr[],int n)
     }
   }
 }
-int printArray(char arr[],char n)
+void printArray(char arr[],char n)
 {
     for(char j=0;j<n;j++)
     {
