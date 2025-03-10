@@ -4,11 +4,11 @@ int kthSmallest(int arr[],int n, int k)
     {
        for(int i=0;i<n-1-j;i++)
        {
-        if(arr[k]>arr[k+1])
+        if(arr[i]>arr[i+1])
         {
-            int temp=arr[k];
-            arr[k]=arr[k+1];
-            arr[k+1]=temp;
+            int temp=arr[i];
+            arr[i]=arr[i+1];
+            arr[i+1]=temp;
         }
        }
     }
