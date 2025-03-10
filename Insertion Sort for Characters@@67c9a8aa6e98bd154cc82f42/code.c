@@ -1,4 +1,4 @@
-int selectionSort(char arr[],int n)
+int insertionSort(char arr[],int n)
 {
     for( char j=0;j<n-1;j++)
   {
