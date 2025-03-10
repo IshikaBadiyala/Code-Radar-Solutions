@@ -3,7 +3,7 @@ int insertionSort(int arr[],int n)
 {
     for(int j=0;j<n;j++)
     {
-        arr[j]==abs(arr[j+1]);
+        arr[j]==abs(arr[j]);
     }
     for( int j=0;j<n-1;j++)
   {
