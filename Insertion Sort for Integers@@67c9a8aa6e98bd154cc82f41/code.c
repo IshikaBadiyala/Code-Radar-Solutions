@@ -13,7 +13,7 @@ int insertionSort(int arr[],int n)
     }
   }
 }
-int printArray(int arr[],char n)
+int printArray(int arr[],int n)
 {
     for(char j=0;j<n;j++)
     {
