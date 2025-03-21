@@ -27,10 +27,13 @@ int main()
     arr[j]=abs(arr[j]);
 }
 int max= arr[0]*arr[1];
-int max1=arr[j-1]*arr[j-2];
+int max1=arr[i-1]*arr[i-2];
 if(max>max1)
 printf("%d",max);
 else
 printf("%d",max1);
 
 }
+
+
+
