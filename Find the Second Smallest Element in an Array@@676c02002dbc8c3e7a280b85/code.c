@@ -1,30 +1,35 @@
 #include<stdio.h>
-#include<limits.h>
 int main()
 {
-    int i,j,smallest,isfound=0,second=INT_MAX;
+    int i,j,k;
     scanf("%d",&i);
     int arr[i];
     for(j=0;j<i;j++)
     {
         scanf("%d",&arr[j]);
     }
-    smallest=arr[0];
     for(j=0;j<i;j++)
     {
-       if(smallest >arr[j])
-       smallest=arr[j];
+        for(k=0;k<i-j-1;k++)
+        {
+            if(arr[k]>arr[k+1])
+            {
+                int temp=arr[k];
+                arr[k]=arr[k+1];
+                arr[k+1]=temp;
+            }
+       }
     }
+    int second_small=arr[1];
     for(j=0;j<i;j++)
     {
-        if(arr[j]<second && arr[j]!=smallest)
-        {second=arr[j];
-        isfound=1;
+        if(arr[j]!=arr[j+1])
+        {printf("%d",second_small);
+        return 0;
+        }
+        else
+        {printf("-1");
+        return 0;
         }
     }
-    if(isfound)
-    printf("%d",second);
-    else
-    printf("-1");
-
 }
