@@ -4,9 +4,6 @@
 int main() {
     int n, i;
     int smallest = INT_MAX, second_smallest = INT_MAX;
-
-    // Input the size of the array
-    printf("Enter the size of the array: ");
     scanf("%d", &n);
     if (n < 2) {
         printf("-1\n");
