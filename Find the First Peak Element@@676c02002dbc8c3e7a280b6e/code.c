@@ -26,7 +26,7 @@ int main()
         }
 
     }
-    if(arr[i-1]>arr[i-2])
+    if(arr[j-1]>arr[j-2])
     {
         printf("%d",arr[i-1]);
         return 0;
