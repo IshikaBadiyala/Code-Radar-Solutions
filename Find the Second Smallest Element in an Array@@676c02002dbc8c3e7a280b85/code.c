@@ -32,7 +32,7 @@ int main()
        printf("%d",second_small);
        return 0;
        }
-       else if(arr[j]!=arr[j+1])
+        if(arr[j]!=arr[j+1])
        {
         printf("%d",second_small);
         return 0;
