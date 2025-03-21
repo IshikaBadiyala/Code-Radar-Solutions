@@ -1,45 +1,44 @@
 #include<stdio.h>
-int main()
-{
-    int i,j,k;
-    scanf("%d",&i);
-    int arr[i];
-    for(j=0;j<i;j++)
-    {
-        scanf("%d",&arr[j]);
-    }
-    if(i==1)
-    {printf("-1");
-    return 0;
-    }
-    for(j=0;j<i;j++)
-    {
-        for(k=0;k<i-j-1;k++)
-        {
-            if(arr[k]>arr[k+1])
-            {
-                int temp=arr[k];
-                arr[k]=arr[k+1];
-                arr[k+1]=temp;
-            }
-       }
-    }
-    int second_small=arr[1];
-    for(j=0;j<i;j++)
-    {
-        if(arr[j]==arr[j+1])
-       {second_small=arr[j+2];
-       printf("%d",second_small);
-       return 0;
-       }
-        if(arr[j]!=arr[j+1])
-       {
-        printf("%d",second_small);
+#include<limits.h> // For INT_MAX
+
+int main() {
+    int n, i;
+    int smallest = INT_MAX, second_smallest = INT_MAX;
+
+    // Input the size of the array
+    printf("Enter the size of the array: ");
+    scanf("%d", &n);
+
+    // Handle edge case: If array has less than two elements
+    if (n < 2) {
+        printf("-1\n"); // Not enough elements for a second smallest
         return 0;
-       }
-        else
-        {printf("-1");
-        return 0;
+    }
+
+    int arr[n];
+
+    // Input the elements of the array
+    printf("Enter the elements of the array: ");
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    // Find the smallest and second smallest elements
+    for (i = 0; i < n; i++) {
+        if (arr[i] < smallest) {
+            second_smallest = smallest; // Update second smallest
+            smallest = arr[i];          // Update smallest
+        } else if (arr[i] < second_smallest && arr[i] != smallest) {
+            second_smallest = arr[i];   // Update second smallest
         }
     }
+
+    // Check if second smallest exists
+    if (second_smallest == INT_MAX) {
+        printf("-1\n"); // No second smallest (all elements are the same)
+    } else {
+        printf("The second smallest element is: %d\n", second_smallest);
+    }
+
+    return 0;
 }
