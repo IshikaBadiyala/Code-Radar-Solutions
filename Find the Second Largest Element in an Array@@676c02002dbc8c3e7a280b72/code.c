@@ -25,15 +25,6 @@ int main()
             }
         }
     }
-    int secondlargest=arr[1];
-    for(j=0;j<i;j++)
-    {
-        if(arr[j]!=arr[j+1])
-       { printf("%d",secondlargest);
-        return 0;}
-        else
-        {printf("-1");
-        break;}
-    }
+
   
 }
