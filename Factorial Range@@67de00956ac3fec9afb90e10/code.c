@@ -5,10 +5,10 @@ int factorialRange(int start,int end)
     {
         int fact=1;
         printf("%d\n",fact);
-       for(j=i;j<=end;j++)
+       for(j=1;j<=start;j++)
        {
         fact=fact*j;
-        printf("%d\n",fact); 
        }  
+       return fact;
     }
 }
