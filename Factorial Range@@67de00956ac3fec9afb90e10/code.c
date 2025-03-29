@@ -11,7 +11,7 @@ int factorialRange(int start,int end)
         fact=fact*j;
        }  
       printf("%d\n",fact);
-      return 0;
+      
     }
     if (start<1||end<1)
     {
