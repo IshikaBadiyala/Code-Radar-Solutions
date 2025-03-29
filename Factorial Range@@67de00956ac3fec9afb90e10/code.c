@@ -7,7 +7,7 @@ int factorialRange(int start,int end)
        for(i=1;i<=end;i++)
        {
         fact=fact*i;
-        return fact;
+        printf("%d",fact); 
        }  
     }
 }
