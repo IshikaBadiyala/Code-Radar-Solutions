@@ -1,6 +1,6 @@
 int trackScores(int scores[], int n, int result)
 {
-    int i,j;
+    int i;
     int highest=scores[0];
     int lowers=scores[0];
     int highest_break=0;
