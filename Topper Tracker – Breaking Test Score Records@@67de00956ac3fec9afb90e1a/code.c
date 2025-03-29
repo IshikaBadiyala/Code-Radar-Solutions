@@ -19,6 +19,6 @@ int trackScores(int scores[], int n,int result)
 
         }
     }
-    result[0]=highest_breaks;
+    result[0]=highest_break;
     result[1]=lowerst_break;
 }
