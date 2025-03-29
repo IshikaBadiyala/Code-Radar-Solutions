@@ -19,6 +19,6 @@ int trackScores(int scores[], int n,int result)
 
         }
     }
-    printf("%d",highest_break);
-    printf("%d",lowerst_break);
+    result[0]=highes_breaks;
+    result[1]=lowerst_break;
 }
