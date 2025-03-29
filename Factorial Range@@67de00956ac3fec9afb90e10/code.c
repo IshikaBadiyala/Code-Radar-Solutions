@@ -4,6 +4,7 @@ int factorialRange(int start,int end)
     for (i=start;i<end;i++)
     {
         int fact=1;
+        printf("%d",fact);
        for(i=1;i<=end;i++)
        {
         fact=fact*i;
