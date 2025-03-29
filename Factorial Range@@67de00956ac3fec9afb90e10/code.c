@@ -9,6 +9,6 @@ int factorialRange(int start,int end)
        {
         fact=fact*j;
        }  
-       return fact;
+      printf("%d",fact);
     }
 }
