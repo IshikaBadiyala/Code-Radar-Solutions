@@ -7,7 +7,7 @@
         int min=INT_MIN;
         scanf("%d",&n);
         int arr[n];
-        if(arr[i]==1)
+        if(i==1)
         {
             printf("-1");
             return 0;
