@@ -1,22 +1,23 @@
-int selectionSort(char arr[],int n)
+int selectionSort(int arr[],int n)
 {
-    for( char j=0;j<n-1;j++)
-  {
-    for(char k=0;k<n-1-j;k++)
+    int i,j;
+    for(i=0;i<n-1;i++)
     {
-        if(arr[k]>arr[k+1])
+        for(j=0;j<n-1-i;j++)
         {
-           char temp=arr[k];
-            arr[k]=arr[k+1];
-            arr[k+1]=temp;
+            if(arr[j]>arr[j+1])
+            {
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+            }
         }
     }
-  }
 }
-int printArray(char arr[],char n)
+int printArray(int arr[], int n)
 {
-    for(char j=0;j<n;j++)
+    for(int j=0;j<n;j++)
     {
-        printf("%c ", arr[j]);
+        printf("%d ",arr[j]);
     }
 }
