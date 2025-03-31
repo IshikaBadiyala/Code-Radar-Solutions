@@ -4,12 +4,12 @@ int main()
     int i,j,k,num;
     scanf("%d",&num);
     char alphabet='A';
-    for(i=0;i<num;i++)
+    for(i=1;i<=num;i++)
     {
-        for(j=0;j<=i;j++)
+        for(j=1;j<=i;j++)
         {
-            printf("%c",alphabet);
-            alphabet++;
+            printf("%c","A"+j-1);
         }
+        printf("\n");
     }
 }
