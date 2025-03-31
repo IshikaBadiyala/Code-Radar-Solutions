@@ -12,6 +12,7 @@
             printf("-1");
             return 0;
         }
+        else{
         for(i=0;i<n;i++)
         {
             scanf("%d",&arr[i]);
@@ -30,4 +31,5 @@
         }
         printf("%d",min);
         return 0;
+    }
     }
