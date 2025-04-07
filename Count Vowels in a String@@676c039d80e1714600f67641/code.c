@@ -7,7 +7,7 @@ int main()
     int count=strlen(arr);
     for(int i=0;i<=count;i++)
     {
-        if(srt[i]='A'||'E'||'I'||'O'||'U'||'a'||'e'||'i'||'o'||'u')
+        if(arr[i]='A'||'E'||'I'||'O'||'U'||'a'||'e'||'i'||'o'||'u')
         {
             int count1++;
         }
