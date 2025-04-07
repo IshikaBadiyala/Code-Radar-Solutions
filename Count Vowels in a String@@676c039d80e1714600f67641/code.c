@@ -9,7 +9,7 @@ int main()
     {
         if(arr[i]='A'||'E'||'I'||'O'||'U'||'a'||'e'||'i'||'o'||'u')
         {
-            int count1++;
+            int count1+=1;
         }
     }
     printf("%d",count1);
