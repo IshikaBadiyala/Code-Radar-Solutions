@@ -5,11 +5,11 @@ int main()
     char arr[30];
     scanf("%s",arr);
     int count=strlen(arr);
-    int str=0;
-    for(int i=0;i<=count;i++)
+    int str;
+    for(int i=0;i<count;i++)
     {
         
-        if(arr[i]=='A'||'E'||'I'||'O'||'U'||'a'||'e'||'i'||'o'||'u')
+        if(arr[i]=='A'|| arr[i]=='E'|| arr[i]=='I'|| arr[i]=='O'|| arr[i]=='U'|| arr[i]=='a'|| arr[i]=='e'|| arr[i]=='i'|| arr[i]=='o'|| arr[i]=='u')
         {
             str+=1;
         }
