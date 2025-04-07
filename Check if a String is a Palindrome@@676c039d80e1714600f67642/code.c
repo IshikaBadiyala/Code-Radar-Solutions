@@ -6,7 +6,7 @@ int main()
     scanf("%s",arr);
     int count=strlen(arr);
     int palindrome=1;
-    for(i=0;i<count;i++)
+    for(int i=0;i<count;i++)
     {
         if(arr[i]!=arr[count-i-1])
         palindrome=0;
