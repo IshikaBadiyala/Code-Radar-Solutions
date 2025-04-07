@@ -1,4 +1,4 @@
-int trackScores(int scores[], int n,int result)
+int trackScores(int scores[], int n,int result[])
 {
     int i;
     int highest=scores[0];
