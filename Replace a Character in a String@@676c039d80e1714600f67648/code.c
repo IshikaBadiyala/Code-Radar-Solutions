@@ -7,8 +7,8 @@ int main()
     char y;
     fgets(str,sizeof(str),stdin);
     str[strcspn(str,"\n")]='\0';
-    scanf("%c",&x);
-    scanf("%c",&y);
+    scanf(" %c",&x);
+    scanf(" %c",&y);
     int count=strlen(str);
     for(int i=0;i<count;i++)
     {
