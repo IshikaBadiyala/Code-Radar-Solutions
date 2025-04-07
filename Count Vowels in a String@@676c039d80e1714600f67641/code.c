@@ -7,9 +7,10 @@ int main()
     int count=strlen(arr);
     for(int i=0;i<=count;i++)
     {
-        if(arr[i]='A'||'E'||'I'||'O'||'U'||'a'||'e'||'i'||'o'||'u')
+        int str;
+        if(arr[i]=='A'||'E'||'I'||'O'||'U'||'a'||'e'||'i'||'o'||'u')
         {
-            int str+=1;
+            str+=1;
         }
     }
     printf("%d",str);
