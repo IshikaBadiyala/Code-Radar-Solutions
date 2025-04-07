@@ -9,7 +9,7 @@ int main()
     scanf(" %c",x);
     scanf(" %c",y);
     int count=strlen(str);
-    for(i=0;i<count;i++)
+    for(int i=0;i<count;i++)
     {
         if(str[i]==x)
         {
