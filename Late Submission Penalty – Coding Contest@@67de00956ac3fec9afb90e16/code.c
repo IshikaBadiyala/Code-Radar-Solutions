@@ -5,7 +5,7 @@ int calculatePenalty(int subDay,int subMonth,int subYear,int dueDay ,int dueMont
     {
         int penalty=((subDay-dueDay)*10);
         printf(subDay);
-        printf(dueDAY);
+        printf(dueDay);
         printf("%d",penalty);
         
     }
