@@ -5,5 +5,5 @@ int main()
     char str[30];
     fgets(str,sizeof(str),stdin);
     int count=strlen(str);
-    printf(count);
+    printf("%d",count);
 }
