@@ -8,7 +8,8 @@
        int count=strlen(str);
         for(int i=count-1;i>=0;i--)
         {
-            printf("%c",str[i]);
+            printf("%s",str[i]);
+            return 0;
         }
     }
 
