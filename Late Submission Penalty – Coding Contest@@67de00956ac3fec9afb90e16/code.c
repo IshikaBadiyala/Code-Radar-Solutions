@@ -3,7 +3,7 @@ int calculatepenalty(int subDay,int subMonth,int subYear,int dueDay ,int dueMont
     int i,j;
     if(subDay>dueDay&&subMonth==dueMonth&&subYear==dueYear)
     {
-        penalty=((subDay-dueDay)*10);
+        int penalty=((subDay-dueDay)*10);
         printf("%d",penalty);
     }
 }
