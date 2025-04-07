@@ -6,7 +6,7 @@ int main()
     char x;
     char y;
     fgets(str,sizeof(str),stdin);
-    str[strcspn(str,"\n")]==0;
+    str[strcspn(str,"\n")]=0;
     scanf("%c",&x);
     scanf("%c",&y);
     int count=strlen(str);
