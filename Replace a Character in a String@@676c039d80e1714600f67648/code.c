@@ -6,8 +6,9 @@ int main()
     char x;
     char y;
     fgets(str,sizeof(str),stdin);
-    scanf(" %c",&x);
-    scanf(" %c",&y);
+    str[strcspn(str,"\n")]==0;
+    scanf("%c",&x);
+    scanf("%c",&y);
     int count=strlen(str);
     for(int i=0;i<count;i++)
     {
