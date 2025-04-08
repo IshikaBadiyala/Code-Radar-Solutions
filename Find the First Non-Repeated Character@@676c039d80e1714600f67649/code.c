@@ -4,8 +4,9 @@
 int main()
 {
     char str[100];
-    fgets(str,sizeof(str),stdin)
     int count=0;
+    fgets(str,sizeof(str),stdin)
+  
     for(i=0;i<strlen(str);i++)
     {
         for(j=i+1;j<strlen(str);j++)
