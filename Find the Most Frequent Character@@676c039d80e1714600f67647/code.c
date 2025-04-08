@@ -1,10 +1,11 @@
 #include<stdio.h>
 #include<string.h>
+#include<limits.h>
 int main()
 {
     char str[100];
     fgets(str,sizeof(str),stdin);
-    int max_freq=0;
+    int max_freq=INT_MIN;
     int max_element;
     int count1;
     int count=strlen(str);
