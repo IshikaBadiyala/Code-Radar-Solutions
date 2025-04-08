@@ -36,10 +36,11 @@ int main()
             }
         }
     }
+    
     int isanagram=1;
     for(int i=0;i<count1;i++)
     {
-        if(str[i]!=str1[j])
+        if(str[i]!=str1[i])
         isanagram=0;
         break;
     }
