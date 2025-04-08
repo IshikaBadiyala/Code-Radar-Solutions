@@ -13,7 +13,7 @@ int main()
     {
     for(int i=0;i<count;i++)
     {
-      for(int j=i+1;j<count1;j++)
+      for(int j=0;j<count1;j++)
       {
         if(str[i]!=str1[j])
         anagram=0;
@@ -22,8 +22,8 @@ int main()
     }
     if(anagram)
     {
-        printf("No");
+        printf("Yes");
     }
     else
-    printf("Yes");
+    printf("No");
 }
