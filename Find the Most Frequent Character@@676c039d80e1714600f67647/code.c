@@ -19,7 +19,7 @@ int main()
                 count1+=1;
             }
         }
-        if(count>max_freq)
+        if(count1>max_freq)
         {
             max_freq=count;
             max_element=str[i];
