@@ -15,7 +15,8 @@ int main()
             count+=1;
         }
         if(count==1)
-        printf("%c",str[i]);
+        {printf("%c",str[i]);
+        }
     }
    
 }
