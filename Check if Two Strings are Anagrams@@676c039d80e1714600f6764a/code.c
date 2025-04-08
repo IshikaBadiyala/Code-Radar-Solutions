@@ -37,7 +37,7 @@ int main()
         }
     }
     int isanagram=1;
-    for(i=0;i<count1;i++)
+    for(int i=0;i<count1;i++)
     {
         if(str[i]!=str1[j])
         isanagram=0;
