@@ -21,7 +21,7 @@ int main()
         }
         if(count1>max_freq)
         {
-            max_freq=count;
+            max_freq=count1;
             max_element=str[i];
         }
     }
