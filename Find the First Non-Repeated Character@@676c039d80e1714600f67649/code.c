@@ -9,6 +9,7 @@ int main()
   
     for(int i=0;i<strlen(str);i++)
     {
+        count=0;
         for(int j=i+1;j<strlen(str);j++)
         {
             if(str[i]==str[j])
