@@ -11,9 +11,9 @@ int main()
     int anagram=1;
     if(count==count1)
     {
-    for(i=0;i<count;i++)
+    for(int i=0;i<count;i++)
     {
-      for(j=i+1;j<count,j++)
+      for(int j=i+1;j<count,j++)
       {
         if(str[i]!=str[j])
         anagram=0;
