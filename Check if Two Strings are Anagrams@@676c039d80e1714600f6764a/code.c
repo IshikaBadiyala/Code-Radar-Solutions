@@ -37,16 +37,9 @@ int main()
         }
     }
     
-    int isanagram=1;
-    for(int i=0;i<count1;i++)
-    {
-        if(str[i]!=str1[i])
-        isanagram=0;
-        break;
-    }
-    if(isanagram)
-    printf("Yes");
-    else
-    printf("No");
+if(strcmp(str,str1)==0)
+printf("Yes");
+else
+printf("No");
     
 }
