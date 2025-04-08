@@ -10,6 +10,7 @@ int main()
     int count=strlen(str);
     for(int i=0;i<count;i++)
     {
+        count1=0;
         for(int j=i+1;j<count;j++)
         {
             if(str[i]==str[j])
