@@ -13,7 +13,7 @@ int main()
     {
     for(int i=0;i<count;i++)
     {
-      for(int j=i+1;j<count,j++)
+      for(int j=i+1;j<count;j++)
       {
         if(str[i]!=str[j])
         anagram=0;
