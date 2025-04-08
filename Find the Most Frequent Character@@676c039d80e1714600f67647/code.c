@@ -29,6 +29,6 @@ int main() {
         }
     }
 
-    printf("Most frequent character: %c\n", max_freq);
+    printf("%c", max_element);
     return 0;
 }
