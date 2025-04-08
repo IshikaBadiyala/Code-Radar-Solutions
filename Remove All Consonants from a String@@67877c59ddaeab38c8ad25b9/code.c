@@ -8,7 +8,7 @@ int main()
     {
         if(str[i]=='A'|| str[i]=='E'||str[i]=='I'||str[i]=='O'||str[i]=='U'||str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u')
         {
-            printf("%c",str[i]);
+            printf("%c ",str[i]);
         }
     
     }
