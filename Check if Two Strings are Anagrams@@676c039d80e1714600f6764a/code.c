@@ -8,22 +8,44 @@ int main()
     scanf("%s",str1);
     int count=strlen(str);
     int count1=strlen(str1);
-    int anagram=1;
-    if(count==count1)
+    if(count!=count1)
+    {printf("No");
+    return 0;
+    }
+    for(int i=0;i<count-1;i++)
     {
-    for(int i=0;i<count;i++)
+        for(int j=i+1;j<count1;j++)
+        {
+            if(str[i]>str[j])
+            {
+                char temp=str[i];
+                str[i]=str[j];
+                str[j]=temp;
+            }
+        }
+    }
+        for(int i=0;i<count-1;i++)
     {
-      for(int j=0;j<count1;j++)
-      {
+        for(int j=i+1;j<count1;j++)
+        {
+            if(str[i]>str[j])
+            {
+                char temp=str1[i];
+                str1[i]=str1[j];
+                str1[j]=temp;
+            }
+        }
+    }
+    int isanagram=1;
+    for(i=0;i<count1;i++)
+    {
         if(str[i]!=str1[j])
-        anagram=0;
-      }
+        isanagram=0;
+        break;
     }
-    }
-    if(anagram)
-    {
-        printf("Yes");
-    }
+    if(isanagram)
+    printf("Yes");
     else
     printf("No");
+    
 }
