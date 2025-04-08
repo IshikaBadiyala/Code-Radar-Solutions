@@ -22,8 +22,8 @@ int main()
     }
     if(anagram)
     {
-        printf("Yes");
+        printf("No");
     }
     else
-    printf("No");
+    printf("Yes");
 }
