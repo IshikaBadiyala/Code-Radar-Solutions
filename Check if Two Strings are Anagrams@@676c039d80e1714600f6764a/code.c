@@ -28,7 +28,7 @@ int main()
     {
         for(int j=i+1;j<count1;j++)
         {
-            if(str[i]>str[j])
+            if(str1[i]>str1[j])
             {
                 char temp=str1[i];
                 str1[i]=str1[j];
