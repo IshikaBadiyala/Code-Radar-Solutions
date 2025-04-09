@@ -10,8 +10,9 @@ int main()
     while( i<strlen(str))
     {
         if(str[i]==' ')
-        {insideword=0;
-        i++;
+        {
+            insideword=0;
+            i++;
         continue;
         }
         if(insideword==0)
@@ -19,7 +20,7 @@ int main()
           insideword=1;
            word+=1;
         }
-        i++
+        i++;
     }
     printf("%d",word);
 }
