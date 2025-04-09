@@ -1,17 +1,25 @@
 #include<stdio.h>
+#include<string.h>
 int main()
 {
     char str[100];
+    int insideword=0
+    int word=0;
     fgets(str,sizeof(str),stdin);
-    int word=1;
-    int i=0;
-    while(str[i]!='\0')
+    while(i<strlen(str))
     {
-        if(str[i]==' '){
-        word++;
-        }
+        if(str[i]==' ')
+        {insideword=0;
         i++;
+        continue;
+        }
+        if(insideword==0)
+        {
+          insideword=1;
+           word+=1;
+        }
+        i++
     }
     printf("%d",word);
-
 }
+
