@@ -3,10 +3,11 @@
 int main()
 {
     char str[100];
+    int i;
     int insideword=0;
     int word=0;
     fgets(str,sizeof(str),stdin);
-    while(int i<strlen(str))
+    while( i<strlen(str))
     {
         if(str[i]==' ')
         {insideword=0;
