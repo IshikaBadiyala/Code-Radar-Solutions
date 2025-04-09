@@ -6,7 +6,7 @@ int main()
     char str[100];
     fgets(str,sizeof(str),stdin);
     int isbinary=1;
-    for(i=0;i<strlen(str);i++)
+    for(int i=0;i<strlen(str);i++)
     {
         if(str[i]!='1'||str[i]!=0)
         {
