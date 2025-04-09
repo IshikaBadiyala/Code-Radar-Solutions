@@ -16,7 +16,7 @@ int main()
 {
     char str[100];
     scanf("%s",str);
-    strrev(str);
+    strev(str);
     printf("%s",str);
 }
 
