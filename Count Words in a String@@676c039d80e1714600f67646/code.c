@@ -3,16 +3,15 @@
 int main()
 {
     char str[100];
-    int i;
+   
     int insideword=0;
     int word=0;
     fgets(str,sizeof(str),stdin);
-    while( i<strlen(str))
+    for(int i=0;i<strlen(str);i++)
     {
         if(str[i]==' ')
         {
             insideword=0;
-            i++;
         continue;
         }
         if(insideword==0)
@@ -20,7 +19,7 @@ int main()
           insideword=1;
            word+=1;
         }
-        i++;
+     
     }
     printf("%d",word);
 }
