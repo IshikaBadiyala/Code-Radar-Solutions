@@ -3,7 +3,12 @@
 int main()
 {
     char str[30];
-    fgets(str,sizeof(str),stdin);
+    if(fgets(str,sizeof(str),stdin)==NULL)
+    {
+        printf("0");
+        return 0;
+    }
+    str[strcspn(str,"\n")]=='\0';
     int count=strlen(str);
     printf("%d",count);
 }
