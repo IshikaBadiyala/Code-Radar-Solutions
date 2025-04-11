@@ -8,10 +8,10 @@ int main()
     int palindrome=1;
     for(int i=0;i<strlen(str);i++)
     {
-        if(str[i]==' ')
+        if(str[i]==' '&&str[i]="\n"')
         {continue;
         }
-        str[i]=str1[i];
+      str1[i]=str[i]
     }
   
     int count=strlen(str1);
