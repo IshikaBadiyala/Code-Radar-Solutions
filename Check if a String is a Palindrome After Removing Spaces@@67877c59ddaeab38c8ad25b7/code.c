@@ -6,13 +6,15 @@ int main()
     char str1[100];
     fgets(str,sizeof(str),stdin);
     int palindrome=1;
+    int j=0;
     for(int i=0;i<strlen(str);i++)
     {
         if(str[i]==' ' && str[i]=='\n')
         {continue;
         }
-      str1[i]=str[i];
+      str1[j++]=str[i];
     }
+    str[j]='\0';
   
     int count=strlen(str1);
     for(int i=0;i<count;i++)
