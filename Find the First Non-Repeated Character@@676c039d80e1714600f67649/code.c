@@ -19,7 +19,12 @@ int main()
       {
         printf("%c",str[i]);
         break;
-      } 
+      }
+      if(count>4)
+      {
+        printf("-");
+      }
+       
     }
    
 }
