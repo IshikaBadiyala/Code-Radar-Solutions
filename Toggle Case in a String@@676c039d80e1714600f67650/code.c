@@ -9,11 +9,11 @@ int main()
     {
         if(str[i]>='A'||str[i]<='Z')
         {
-            tolower(str[i]);
+            str[i]=tolower(str[i]);
         }
         if(str[i]>='a'||str[i]<='z')
         {
-            toupper(str[i]);
+            str[i]=toupper(str[i]);
         }
     }
     printf("%s",str);
