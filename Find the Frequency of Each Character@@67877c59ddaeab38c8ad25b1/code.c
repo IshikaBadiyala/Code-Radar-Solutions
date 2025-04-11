@@ -17,9 +17,9 @@ int main() {
             }
         }
         }
-       
+        if (str[i] != '0') {
             printf("%c: %d\n", str[i], count);
-        
+        }
     }
    return 0;
 }
