@@ -17,7 +17,7 @@ int main()
         }
       if(count==1)
       {
-        primtf("%c",str[i]);
+        printf("%c",str[i]);
         break;
       } 
     }
