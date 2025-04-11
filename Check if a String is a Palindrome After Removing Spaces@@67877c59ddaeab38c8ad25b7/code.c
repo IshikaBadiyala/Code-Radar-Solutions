@@ -12,7 +12,7 @@ int main()
         if(str[i]==' ' || str[i]=='\n')
         {continue;
         }
-      str1[j++]=str1[i];
+      str1[j++]=str[i];
     }
     str1[j]='\0';
   
