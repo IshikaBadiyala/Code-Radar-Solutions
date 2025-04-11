@@ -10,7 +10,7 @@ int main()
     {
         if(str[i]!=' '||str[i]!='\n')
         {
-            freq[str]++;
+            freq[str[i]]++;
         }
     }
     for(int i=0;i<MAX_CHAR;i++)
