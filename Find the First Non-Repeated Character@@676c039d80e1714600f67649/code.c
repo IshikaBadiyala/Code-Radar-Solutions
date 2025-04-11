@@ -1,30 +1,28 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
-int main()
-{
+#define MAX_CHAR 256 // Considering all possible ASCII characters
+
+int main() {
     char str[100];
-    int count;
-    fgets(str,sizeof(str),stdin);
-  
-    for(int i=0;i<strlen(str);i++)
-    {
-        count=1;
-        for(int j=i+1;j<strlen(str);j++)
-        {
-            if(str[i]==str[j])
-            count+=1;
-        }
-      if(count==1)
-      {
-        printf("%c",str[i]);
-        break;
-      }
-      if(count>4)
-      {
-        printf("-");
-      }
-       
+    int freq[MAX_CHAR] = {0}; // Frequency array initialized to 0
+
+    fgets(str, sizeof(str), stdin);
+
+    // Count occurrences of each character
+    for (int i = 0; i < strlen(str); i++) {
+        freq[(unsigned char)str[i]]++; // Using unsigned char to handle all characters
     }
-   
+
+    // Find the first non-repeating character
+    for (int i = 0; i < strlen(str); i++) {
+        if (freq[(unsigned char)str[i]] == 1) {
+            printf("First non-repeating character: %c\n", str[i]);
+            return 0; // Exit after finding the first one
+        }
+    }
+
+    printf("No non-repeating character found.\n"); // If all characters repeat
+
+    return 0;
 }
