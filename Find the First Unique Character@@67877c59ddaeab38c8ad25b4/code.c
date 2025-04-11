@@ -23,11 +23,14 @@ int main()
             if(count==1)
             {
                 printf("%c",str[i]);
-                break;
+                return 0;
+                
             }
         }
         else
-        printf("-");
+        {printf("-");
+        return 0;
+        }
 
     }
 }
