@@ -15,11 +15,7 @@ int main()
             if(str[i]==str[j])
             count+=1;
         }
-        if(count==1)
-        {printf("%c",str[i]);
-        }
-        else
-        printf("-");
+       
     }
    
 }
