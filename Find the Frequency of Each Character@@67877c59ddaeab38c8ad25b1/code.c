@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-#define MAX_CHAR 256;
+#define MAX_CHAR 256
 int main()
 {
     char str[100];
