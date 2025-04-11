@@ -17,7 +17,7 @@ int main() {
     // Find the first non-repeating character
     for (int i = 0; i < strlen(str); i++) {
         if (freq[(unsigned char)str[i]] == 1) {
-            printf("First non-repeating character: %c\n", str[i]);
+            printf("%s",str[i]);
             return 0; // Exit after finding the first one
         }
     }
