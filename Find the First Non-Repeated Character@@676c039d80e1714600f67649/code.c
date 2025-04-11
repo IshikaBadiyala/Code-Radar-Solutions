@@ -4,7 +4,7 @@
 int main()
 {
     char str[100];
-    int count=0;
+    int count;
     fgets(str,sizeof(str),stdin);
   
     for(int i=0;i<strlen(str);i++)
@@ -15,7 +15,11 @@ int main()
             if(str[i]==str[j])
             count+=1;
         }
-       
+      if(count==1)
+      {
+        primtf("%c",str[i]);
+        break;
+      } 
     }
    
 }
