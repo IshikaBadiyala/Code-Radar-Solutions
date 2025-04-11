@@ -8,7 +8,7 @@ int main() {
     int count;
     for (int i = 0; i < length; i++) {
         for (int j = i + 1; j < length; j++) {
-            if (str[j] != str[i]) {
+            if (str[i] != str[j]) {
             
                 printf("%c",str[i]);
                 break;
