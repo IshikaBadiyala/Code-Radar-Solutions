@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<ctype.h>
 int main()
 {
     char str[100];
@@ -12,7 +13,7 @@ int main()
         if(str[i]==' ' || str[i]=='\n')
         {continue;
         }
-      str1[j++]=str[i];
+      str1[j++]=tolower(str[i]);
     }
     str1[j]='\0';
   
