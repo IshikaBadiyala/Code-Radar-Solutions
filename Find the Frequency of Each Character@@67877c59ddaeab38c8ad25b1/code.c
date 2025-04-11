@@ -3,33 +3,23 @@
 
 int main() {
     char str[100];
-    fgets(str, sizeof(str), stdin);
-    
+    fgets(str, sizeof(str), stdin);  
     int length = strlen(str);
     int count;
-    
-    // Outer loop iterates over each character
     for (int i = 0; i < length; i++) {
-        if (str[i]!='\0') {  // Ignore spaces and newlines
-           
-        
-
-        count = 1;  // Initialize count for str[i]
-
-        // Inner loop checks occurrences of str[i] in the rest of the string
+        if (str[i]!='\0')
+         {
+        count = 1; 
         for (int j = i + 1; j < length; j++) {
             if (str[j] == str[i]) {
                 count++;
-                str[j] = '0'; // Mark character as counted to avoid duplicate printing
+                str[j] = '0'; 
             }
         }
         }
-
-        // Print the character only if it's not marked as counted
-        if (str[i] != '0') {
+       
             printf("%c: %d\n", str[i], count);
-        }
+        
     }
-
-    return 0;
+   return 0;
 }
