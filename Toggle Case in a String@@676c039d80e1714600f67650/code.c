@@ -11,11 +11,12 @@ int main()
         {
             str[i]=tolower(str[i]);
         }
-        if(str[i]>='a'&&str[i]<='z')
+        else if(str[i]>='a'&&str[i]<='z')
         {
             str[i]=toupper(str[i]);
         }
     }
     printf("%s",str);
+    return 0;
 }
 
