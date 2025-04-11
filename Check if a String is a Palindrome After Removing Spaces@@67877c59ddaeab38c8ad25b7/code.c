@@ -15,7 +15,7 @@ int main()
     }
   
     int count=strlen(str1);
-    for(int i=0;i<count<i++)
+    for(int i=0;i<count;i++)
     {
          if(str1[i]!=str1[count-i-1])
          {
