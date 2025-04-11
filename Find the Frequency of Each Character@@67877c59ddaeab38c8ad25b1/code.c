@@ -6,6 +6,7 @@ int main() {
     fgets(str, sizeof(str), stdin);
     
     int length = strlen(str);
+    int count;
     
     // Outer loop iterates over each character
     for (int i = 0; i < length; i++) {
@@ -13,7 +14,7 @@ int main() {
            
         
 
-        int count = 1;  // Initialize count for str[i]
+        count = 1;  // Initialize count for str[i]
 
         // Inner loop checks occurrences of str[i] in the rest of the string
         for (int j = i + 1; j < length; j++) {
