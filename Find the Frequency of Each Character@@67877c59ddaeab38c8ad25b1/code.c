@@ -10,15 +10,15 @@ int main()
     {
         if(str[i]!='\0')
         {
-            freq[(unsigned char)str[i]]++;
+            freq[str[i]]++;
         }
     }
     for(int i=0;i<strlen(str);i++)
     {
         if(freq[str[i]]>0)
         {
-            printf("%c: %d\n",str[i],freq[(unsigned char)str[i]]);
-            freq[(unsigned char )str[i]]=0;
+            printf("%c: %d\n",str[i],freq[str[i]]);
+            freq[str[i]]=0;
         }
     }
 }
