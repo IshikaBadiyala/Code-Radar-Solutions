@@ -6,10 +6,11 @@ int main()
     fgets(str,sizeof(str),stdin);
     int length=strlen(str);
     int count;
+    int j;
     for(int i=0;i<length;i++)
     {
         count=1;
-        for(int j=i+1;j<length;j++)
+        for( j=i+1;j<length;j++)
         {
             if(str[i]==str[j])
             {
