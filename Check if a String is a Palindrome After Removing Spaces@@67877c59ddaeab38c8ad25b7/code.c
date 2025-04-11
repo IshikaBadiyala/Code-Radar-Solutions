@@ -11,7 +11,7 @@ int main()
         if(str[i]==' ')
         {continue;
         }
-      str1[i]=str[i]
+      str1[i]=str[i];
     }
   
     int count=strlen(str1);
