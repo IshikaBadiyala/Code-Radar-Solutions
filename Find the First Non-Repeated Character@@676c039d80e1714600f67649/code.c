@@ -18,6 +18,8 @@ int main()
         if(count==1)
         {printf("%c",str[i]);
         }
+        else
+        printf("-");
     }
    
 }
