@@ -9,9 +9,9 @@ int main() {
     
     // Outer loop iterates over each character
     for (int i = 0; i < length; i++) {
-        if (str[i] == ' ' || str[i] == '\n') {  // Ignore spaces and newlines
-            continue;
-        }
+        if (str[i]!='\0') {  // Ignore spaces and newlines
+           
+        
 
         int count = 1;  // Initialize count for str[i]
 
@@ -21,6 +21,7 @@ int main() {
                 count++;
                 str[j] = '0'; // Mark character as counted to avoid duplicate printing
             }
+        }
         }
 
         // Print the character only if it's not marked as counted
