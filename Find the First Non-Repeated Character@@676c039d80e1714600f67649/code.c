@@ -17,12 +17,8 @@ int main() {
     // Find the first non-repeating character
     for (int i = 0; i < strlen(str); i++) {
         if (freq[(unsigned char)str[i]] == 1) {
-            printf("%s",str[i]);
-            return 0; // Exit after finding the first one
+            printf("%c",str[i]);
+            return 0; 
         }
     }
-
-    printf("No non-repeating character found.\n"); // If all characters repeat
-
-    return 0;
 }
