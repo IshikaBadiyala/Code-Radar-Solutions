@@ -4,7 +4,7 @@ int main()
 {
     char str[100];
     fgets(str,sizeof(str),stdin);
-    int length;
+    int length=strlen(str);
     int count;
     for(int i=0;i<length;i++)
     {
