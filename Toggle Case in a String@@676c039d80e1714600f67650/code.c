@@ -7,11 +7,11 @@ int main()
     fgets(str,sizeof(str),stdin);
     for(int i=0;i<strlen(str);i++)
     {
-        if(str[i]>='A'||str[i]<='Z')
+        if(str[i]>='A'&&str[i]<='Z')
         {
             str[i]=tolower(str[i]);
         }
-        else if(str[i]>='a'||str[i]<='z')
+        if(str[i]>='a'&&str[i]<='z')
         {
             str[i]=toupper(str[i]);
         }
