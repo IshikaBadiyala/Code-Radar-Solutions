@@ -15,7 +15,7 @@ int main()
     }
     for(int i=0;i<MAX_CHAR;i++)
     {
-        if(freq[str]>0)
+        if(freq[str[i]]>0)
         {
             printf("%c:%d",i,freq[i]);
         }
