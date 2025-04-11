@@ -14,12 +14,17 @@ int main()
             if(str[i]==str[j])
             {
                 count+=1;
+                str[j]='0';
             }
         }
-        if(count==1)
+        if(str[j]!='0')
         {
-            printf("%c",str[i]);
-            break;
+            if(count==1)
+            {
+                printf("%c",str[i]);
+                break;
+            }
         }
+
     }
 }
