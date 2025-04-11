@@ -8,14 +8,14 @@ int main()
     fgets(str,sizeof(str),stdin);
     for(int i=0;i<strlen(str);i++)
     {
-        if(str[i]!=' '||str[i]!='\n')
+        if(str[i]!=' '&&str[i]!='\n')
         {
             freq[str[i]]++;
         }
     }
     for(int i=0;i<MAX_CHAR;i++)
     {
-        if(freq[str[i]]>0)
+        if(freq[i]>0)
         {
             printf("%c:%d",i,freq[i]);
         }
