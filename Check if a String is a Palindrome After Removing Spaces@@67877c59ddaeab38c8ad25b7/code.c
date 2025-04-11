@@ -20,7 +20,7 @@ int main()
          if(str1[i]!=str1[count-i-1])
          {
             palindrome=0;
-            break;
+            
          }
     }
     if(palindrome==1)
