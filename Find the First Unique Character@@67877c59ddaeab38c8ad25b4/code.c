@@ -26,6 +26,8 @@ int main()
                 break;
             }
         }
+        else
+        printf("-");
 
     }
 }
