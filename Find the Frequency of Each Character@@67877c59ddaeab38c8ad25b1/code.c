@@ -6,7 +6,7 @@ int main()
     char str[100];
     int freq[MAX_CHAR]={0};
     fgets(str,sizeof(str),stdin);
-    for(int i=0;i<strlen(Str),i++)
+    for(int i=0;i<strlen(str),i++)
     {
         if(str[i]!=' '||str[i]!='\n')
         {
