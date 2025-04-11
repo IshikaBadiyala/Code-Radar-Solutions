@@ -12,17 +12,17 @@ int main()
         if(str[i]==' ' && str[i]=='\n')
         {continue;
         }
-      str1[j++]=str[i];
+      str1[j++]=str1[i];
     }
     str[j]='\0';
   
     int count=strlen(str1);
-    for(int i=0;i<count;i++)
+    for(int i=0;i<count/2;i++)
     {
          if(str1[i]!=str1[count-i-1])
          {
             palindrome=0;
-            
+            break;
          }
     }
     if(palindrome==1)
