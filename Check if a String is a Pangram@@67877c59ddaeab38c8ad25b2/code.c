@@ -7,7 +7,7 @@ int main()
     {
         for(int i=0;i<strlen(str);i++)
         {
-            if(str[i]>='A'&&str[i]<='Z'||str[i]<='a'&&str[j]<='z')
+            if(str[i]>='A'&&str[i]<='Z'||str[i]<='a'&&str[i]<='z')
             {
                 printf("yes");
             }
